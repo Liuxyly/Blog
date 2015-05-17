@@ -1,0 +1,34 @@
+对于已存在的自己的项目git应该这样使用：
+ssh-keygen -t rsa -C "your_email@youremail.com"
+git config --global user.name "your name"
+git config --global user.email "your_email@youremail.com"
+git config --global push.default simple
+git config --global color.status auto
+git config --global color.branch auto
+git config --list
+
+git remote add origin git@github.com:yourName/yourRepo.git
+git pull origin master
+
+更改文件
+or
+Other 修改README
+
+git add README （git add -A）
+git commit -m "first commit"
+
+git push origin master
+
+.gitignore文件
+忽略文件或文件夹
+.gitkeep
+追踪空的文件夹
+
+git commit --amend -m "More changes - now correct"
+
+git tag -a v1.0 -m 'first version'
+
+删除tag
+git tag -d v1.0
+共享tag
+git push origin --tags
