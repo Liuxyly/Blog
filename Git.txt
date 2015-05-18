@@ -1,4 +1,4 @@
-�����Ѵ��ڵ��Լ�����ĿgitӦ������ʹ�ã�
+对于已存在的自己的项目git应该这样使用：
 ssh-keygen -t rsa -C "your_email@youremail.com"
 git config --global user.name "your name"
 git config --global user.email "your_email@youremail.com"
@@ -10,25 +10,51 @@ git config --list
 git remote add origin git@github.com:yourName/yourRepo.git
 git pull origin master
 
-�����ļ�
+更改文件
 or
-Other �޸�README
+Other 修改README
 
-git add README ��git add -A��
+git add README （git add -A）
 git commit -m "first commit"
 
 git push origin master
 
-.gitignore�ļ�
-�����ļ����ļ���
+.gitignore文件
+忽略文件或文件夹
 .gitkeep
-׷�ٿյ��ļ���
+追踪空的文件夹
 
 git commit --amend -m "More changes - now correct"
 
 git tag -a v1.0 -m 'first version'
 
-ɾ��tag
+删除tag
 git tag -d v1.0
-����tag
+共享tag
 git push origin --tags
+
+公钥用于加密 而私钥用于解密，所以如果把生成的公钥放到公网上别人就可以查到我的公钥并且把信息加密一邮件的形式发给我 我在用私钥解密，从而达到加密的目的，但是如果是有人盗用名号的话就需要本人的认证这就需要密钥的指纹真人的公钥的指纹可以用某种途径来传播只要指纹正确就是本人的公钥
+
+
+gpg --gen-key               #生成GnuPG Key
+	sudo dd if=/dev/sda of=/dev/tty7 #增加熵值
+gpg --gen-revoke B48B5490   #撤销证书
+
+gpg --list-keys #列出公钥
+
+gpg --export --armor B48B5490 --output file.key #输出密钥
+gpg --import file.key
+
+gpg --encrypt --armor -r B48B5490 test.txt #加密文件
+gpg --recipient cenguor@gmail.com --output en_test.txt --encrypt test.txt
+
+gpg --decrypt test.txt.asc #解密文件
+
+gpg --fingerprint cenguor@gmail.com #察看指纹
+
+签名认证
+gpg --clearsign test.txt #生成ascii码的签名信息加上文件
+gpg --armor --detach-sign test.txt #生成单独的ascii签名文件
+
+签名且加密
+
