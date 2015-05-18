@@ -45,6 +45,8 @@ gpg --list-keys #列出公钥
 gpg --export --armor B48B5490 --output file.key #输出密钥
 gpg --import file.key
 
+gpg --edit-key B48B5490
+
 gpg --encrypt --armor -r B48B5490 test.txt #加密文件
 gpg --recipient cenguor@gmail.com --output en_test.txt --encrypt test.txt
 
