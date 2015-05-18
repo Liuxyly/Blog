@@ -13,11 +13,11 @@ gpg --import file.key
 gpg --edit-key B48B5490
 
 gpg --encrypt --armor -r B48B5490 test.txt #加密文件
-gpg --recipient cenguor@gmail.com --output en_test.txt --encrypt test.txt
+gpg --recipient Anonymous@anyone.com --output en_test.txt --encrypt test.txt
 
 gpg --decrypt test.txt.asc #解密文件
 
-gpg --fingerprint kcenguor@gmail.com #察看指纹
+gpg --fingerprint Anonymous@anyone.com #察看指纹
 
 签名认证
 gpg --clearsign test.txt #生成ascii码的签名信息加上文件
