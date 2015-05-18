@@ -1,0 +1,26 @@
+公钥用于加密 而私钥用于解密，所以如果把生成的公钥放到公网上别人就可以查到我的公钥并且把信息加密一邮件的形式发给我 我在用私钥解密，从而达到加密的目的，但是如果是有人盗用名号的话就需要本人的认证这就需要密钥的指纹真人的公钥的指纹可以用某种途径来传播只要指纹正确就是本人的公钥
+
+
+gpg --gen-key               #生成GnuPG Key
+	sudo dd if=/dev/sda of=/dev/tty7 #增加熵值
+gpg --gen-revoke B48B5490   #撤销证书
+
+gpg --list-keys #列出公钥
+
+gpg --export --armor B48B5490 --output file.key #输出密钥
+gpg --import file.key
+
+gpg --edit-key B48B5490
+
+gpg --encrypt --armor -r B48B5490 test.txt #加密文件
+gpg --recipient cenguor@gmail.com --output en_test.txt --encrypt test.txt
+
+gpg --decrypt test.txt.asc #解密文件
+
+gpg --fingerprint kcenguor@gmail.com #察看指纹
+
+签名认证
+gpg --clearsign test.txt #生成ascii码的签名信息加上文件
+gpg --armor --detach-sign test.txt #生成单独的ascii签名文件
+
+签名且加密
