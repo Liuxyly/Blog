@@ -4,6 +4,7 @@
 gpg --gen-key               #生成GnuPG Key
 	sudo dd if=/dev/sda of=/dev/tty7 #增加熵值
 gpg --gen-revoke B48B5490   #撤销证书
+gpg --send-keys [用户ID] --keyserver hkp://subkeys.pgp.net 
 
 gpg --list-keys #列出公钥
 
