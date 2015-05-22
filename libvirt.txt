@@ -1,3 +1,4 @@
 http://blog.chinaunix.net/uid-20917783-id-2560164.html
 http://wiki.libvirt.org/page/Networking
 http://libvirt.org/sources/virshcmdref/html-single/
+http://www.07net01.com/linux/shiyonglibvirtguanlikvm_virshpian__100508_1364205584.html
