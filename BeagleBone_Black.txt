@@ -1,2 +1,20 @@
 http://pan.baidu.com/s/1eQozxnG
 http://archlinuxarm.org/platforms/armv7/ti/beaglebone-black
+https://www.eewiki.net/display/linuxonarm/BeagleBone+Black#BeagleBoneBlack-SetupmicroSDcard
+How to build the source code for Beaglebone black(BBB)
+
+1.Install toolchain in ubuntu 12.04 64bit
+apt-get install gcc-arm-linux-gnueabi
+
+2.Build uboot
+cd u-boot-2013.07 
+CROSS_COMPILE=arm-linux-gnueabi- make am335x_evm
+
+How to test the firmware
+
+3.Build all in root directory, the bin file will copy to image/
+make
+
+
+How to build kernel?
+http://elinux.org/Building_BBB_Kernel#Downloading_and_building_the_Linux_Kernel
