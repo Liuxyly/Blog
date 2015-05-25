@@ -21,3 +21,24 @@ http://elinux.org/Building_BBB_Kernel#Downloading_and_building_the_Linux_Kernel
 
 http://dev.ardupilot.com/wiki/building-the-code/building-for-beaglebone-black-on-linux/
 http://www.armhf.com/boards/beaglebone-black/
+
+BeagleBone Black microSD Card Installation
+        ls /dev/sd*
+        fdisk /dev/sdX
+        example:/dev/sda
+        2048 - 4095 bootable W95 FAT16
+        4096 - end           83
+        mkfs.vfat /dev/sda1
+        mkfs.ext4 /dev/sda2
+        
+        wget http://s3.armhf.com/dist/bone/bone-uboot.tar.xz
+        mkdir boot
+        mount /dev/sdX1 boot
+        tar xJvf bone-uboot.tar.xz -C boot
+        umount boot
+        
+        wget http://s3.armhf.com/dist/bone/ubuntu-trusty-14.04-rootfs-3.14.4.1-bone-armhf.com.tar.xz
+        mkdir rootfs
+        mount /dev/sdX2 rootfs
+        tar xJvf ubuntu-trusty-14.04-rootfs-3.14.4.1-bone-armhf.com.tar.xz -C rootfs
+        umount rootfs
