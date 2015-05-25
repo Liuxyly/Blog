@@ -12,3 +12,11 @@ compress   : tar Zcvf FileName.tar.Z DirName
 
 compress   : tar -zcvf - pma|openssl des3 -salt -k password | dd of=pma.des3
 decompress : dd if=pma.des3 |openssl des3 -d -k password|tar zxf -
+
+grub rescue:
+        ls #display all disk (just like "(hd0,msdos6)")
+        set root=(hd0,msdos6)
+        set prefix=(hd0,msdos6)/boot/grub
+        ls /boot/grub/i386-pc #find normal.mod file
+        insmod /boot/grub/i386-pc/normal.mod #install normal.mod
+        normal
