@@ -18,3 +18,5 @@ make
 
 How to build kernel?
 http://elinux.org/Building_BBB_Kernel#Downloading_and_building_the_Linux_Kernel
+
+http://dev.ardupilot.com/wiki/building-the-code/building-for-beaglebone-black-on-linux/
