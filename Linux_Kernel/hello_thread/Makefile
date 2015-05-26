@@ -1,4 +1,4 @@
-obj-m+=hello_h.o
+obj-m+=hello_thread.o
 CURRENT:=$(shell pwd)
 KERNEL_PATH:=/usr/src/linux-headers-$(shell uname -r)
 
