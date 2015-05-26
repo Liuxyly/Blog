@@ -12,3 +12,6 @@ http://www.cnblogs.com/byfhd/
 http://cloud.51cto.com/art/201412/461261.htm
 http://book.51cto.com/art/201401/427823.htm
 http://blog.csdn.net/bullbat/article/details/7347874
+http://blog.csdn.net/lhx20/article/category/394286
+#sapjco.jar x86_64
+http://download.csdn.net/detail/xxd851116/5958459
