@@ -1,1 +1,4 @@
 http://book.51cto.com/art/201401/427823.htm
+mkdir au
+mount –t aufs none /au 
+ls
