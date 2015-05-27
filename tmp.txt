@@ -14,5 +14,6 @@ http://book.51cto.com/art/201401/427823.htm
 http://blog.csdn.net/bullbat/article/details/7347874
 http://blog.csdn.net/lhx20/article/category/394286
 #sapjco.jar x86_64
+http://www.cnblogs.com/jiangzhengjun/p/4291479.html#_Toc411677374
 http://download.csdn.net/detail/xxd851116/5958459
 http://www.cnblogs.com/wang_yb/p/3514730.html
