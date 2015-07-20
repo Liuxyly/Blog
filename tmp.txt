@@ -27,3 +27,4 @@ http://www.cnblogs.com/fatcat/
 http://www.itpub.net/forum.php?mod=viewthread&tid=1737078
 http://f.dataguru.cn/showforum2013_11_0.html
 git服务器搭建 archlinux
+http://wiki.sebeka.k12.mn.us/virt:xen_4.4_14.04
