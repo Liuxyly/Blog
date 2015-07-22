@@ -30,4 +30,4 @@ git服务器搭建 archlinux
 http://wiki.sebeka.k12.mn.us/virt:xen_4.4_14.04
 http://www.linuxstory.org/dnf-commands-for-fedora-rpm-package-management/
 http://www.itechzero.com/google-mirror-sites-collect.html
-test
+https://github.com/olifante/Arch-etc
