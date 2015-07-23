@@ -32,3 +32,4 @@ http://www.linuxstory.org/dnf-commands-for-fedora-rpm-package-management/
 http://www.itechzero.com/google-mirror-sites-collect.html
 https://github.com/olifante/Arch-etc
 https://bbs.archlinux.org/viewtopic.php?id=185970
+http://blog.csdn.net/huojianying123456/article/details/47012173
