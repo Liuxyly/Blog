@@ -1,0 +1,122 @@
+ENQUEUE_EZE_ZGEKG_T00311 ロック
+DEQUEUE_EZE_ZGEKG_T00311 解除
+BAPI_CURRENCY_CONV_TO_EXTERNAL 外部データ書式への通貨額の変換
+
+CONCATENATE a b c INTO d SEPARATED BY CL_ABAP_CHAR_UTILITIES=>HORIZONTAL_TAB.
+
+LOOP AT SCREEN.
+  IF SCREEN-NAME = CG_FILENAME.   "ローカルファイル出力先
+*       必須項目に設定
+	SCREEN-REQUIRED = 2.
+	MODIFY SCREEN.
+  ELSE.
+*       処理なし
+  ENDIF.
+ENDLOOP.
+
+*   カーソルをパラメータに合わせる
+SET CURSOR FIELD CG_FILENAME.
+
+SORTED TABLE
+TYP_T_KNBK TYPE SORTED TABLE OF TYP_KNBK
+WITH NON-UNIQUE KEY KUNNR   " 得意先コード
+					BANKS,  " 国コード
+	
+READ TABLE TL_KNBK INTO WL_KNBK
+  WITH TABLE KEY KUNNR = <FS_BSXD_2>-KUNNR "得意先コード
+				 BANKS = VL_LAND1.         "国コード
+				 
+TYP_T_BSXD_2    TYPE SORTED   TABLE OF  TYP_BSXD_2      " 債権明細（二次）
+					 WITH UNIQUE KEY  BUKRS     " 会社コード
+									  KUNNR     " 得意先コード
+									  GJAHR     " 会計年度
+									  BELNR     " 会計伝票番号
+									  BUZEI,    " 会計伝票明細番号
+
+INSERT  WL_BSXD_2  INTO TABLE  C_T_BSXD_2.
+
+INSERT line INTO TABLE itab.
+
+HASHED TABLE
+TYP_T_SKAT TYPE HASHED TABLE OF TYP_SKAT
+WITH UNIQUE KEY KTOPL       " 勘定コード表
+				SAKNR,      " G/L 勘定コード
+				
+READ TABLE TL_SKAT INTO WL_SKAT
+  WITH TABLE KEY KTOPL = VL_KTOPL            "勘定コード表
+				 SAKNR = <FS_BSXD_2>-HKONT.  "G/L 勘定コード
+				 
+				 
+				 
+SE18: BADI Definition.
+SE19: BADI Implementation.
+SMOD: Locating Customer Exit.
+
+SY-UZEIT: Current System Time.
+SY-DATUM: Current System Data.
+SY-TABIX: Index of Appended Line.
+SY-SUBRC: Return Value After Specific Statements.
+SY-DBCNT: Number of Elements in the Edited Dataset.
+SY-LINSZ: Line Size.
+SY-UCOMM: Current Function Code.
+SY-DATAR: Check if a User Made Any Input.
+SY-CPROG: Getting the Current Program Name.
+
+光?操作
+
+DATA: w_fname(20) TYPE c,
+      w_val(10) TYPE c.
+
+PARAMETERS: p1(10) TYPE c,
+            p2(10) TYPE c,
+            p3(10) TYPE c.
+
+AT SELECTION-SCREEN.
+  CHECK sy-ucomm IS INITIAL.
+  GET CURSOR FIELD w_fname VALUE w_val.
+  CHECK w_val IS INITIAL.   "如果没有?入
+  CLEAR w_fname.
+
+AT SELECTION-SCREEN OUTPUT.
+  CASE w_fname.
+    WHEN 'P1'.
+      CLEAR w_fname.
+      SET CURSOR FIELD 'P2'.
+    WHEN 'P2'.
+      CLEAR w_fname.
+      SET CURSOR FIELD 'P3'.
+  ENDCASE. 
+  
+  
+SELECTION-SCREEN: BEGIN OF BLOCK B1 WITH FRAME.
+PARAMETERS S_DATE TYPE DATUM OBLIGATORY  MODIF ID OO.
+SELECTION-SCREEN: END OF BLOCK B1.
+
+SELECTION-SCREEN: BEGIN OF BLOCK B2 WITH FRAME.
+SELECT-OPTIONS: S_DATE2 FOR SY-DATUM  MODIF ID PP.
+SELECTION-SCREEN: END OF BLOCK B2.
+
+SELECTION-SCREEN: BEGIN OF BLOCK B3 WITH FRAME.
+PARAMETERS : R1 RADIOBUTTON GROUP D1 DEFAULT 'X' USER-COMMAND SINGLECLICK,
+
+             R2 RADIOBUTTON GROUP D1 .
+SELECTION-SCREEN: END OF BLOCK B3.
+
+
+
+AT SELECTION-SCREEN OUTPUT.
+  IF R1 = 'X'.
+    LOOP AT SCREEN.
+      IF SCREEN-GROUP1 = 'PP'.
+        SCREEN-ACTIVE = '0'.
+      ENDIF.
+      MODIFY SCREEN.
+    ENDLOOP.
+  ELSEIF R2 = 'X'.
+    LOOP AT SCREEN.
+      IF SCREEN-GROUP1 = 'OO'.
+        SCREEN-ACTIVE = '0'.
+      ENDIF.
+      MODIFY SCREEN.
+    ENDLOOP.
+  ENDIF.
