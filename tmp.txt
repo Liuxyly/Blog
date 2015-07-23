@@ -33,3 +33,5 @@ http://www.itechzero.com/google-mirror-sites-collect.html
 https://github.com/olifante/Arch-etc
 https://bbs.archlinux.org/viewtopic.php?id=185970
 http://blog.csdn.net/huojianying123456/article/details/47012173
+https://support.office.com/zh-cn/article/%E5%9C%A8-Word-%E4%B8%AD%E5%88%9B%E5%BB%BA%E6%B8%85%E5%8D%95-dd04fa4f-2ca7-4543-8818-c469eca9f45c?omkt=zh-CN&ui=zh-CN&rs=zh-CN&ad=CN
+http://www.saponlinetutorials.com/sap-fico-module-training-tutorials-sap-fi-materials/

@@ -1,37 +1,37 @@
-ENQUEUE_EZE_ZGEKG_T00311 ���b�N
-DEQUEUE_EZE_ZGEKG_T00311 ����
-BAPI_CURRENCY_CONV_TO_EXTERNAL �O���f�[�^�����ւ̒ʉ݊z�̕ϊ�
+﻿ENQUEUE_EZE_ZGEKG_T00311 ロック
+DEQUEUE_EZE_ZGEKG_T00311 解除
+BAPI_CURRENCY_CONV_TO_EXTERNAL 外部データ書式への通貨額の変換
 
 CONCATENATE a b c INTO d SEPARATED BY CL_ABAP_CHAR_UTILITIES=>HORIZONTAL_TAB.
 
 LOOP AT SCREEN.
-  IF SCREEN-NAME = CG_FILENAME.   "���[�J���t�@�C���o�͐�
-*       �K�{���ڂɐݒ�
+  IF SCREEN-NAME = CG_FILENAME.   "ローカルファイル出力先
+*       必須項目に設定
 	SCREEN-REQUIRED = 2.
 	MODIFY SCREEN.
   ELSE.
-*       �����Ȃ�
+*       処理なし
   ENDIF.
 ENDLOOP.
 
-*   �J�[�\�����p�����[�^�ɍ��킹��
+*   カーソルをパラメータに合わせる
 SET CURSOR FIELD CG_FILENAME.
 
 SORTED TABLE
 TYP_T_KNBK TYPE SORTED TABLE OF TYP_KNBK
-WITH NON-UNIQUE KEY KUNNR   " ���Ӑ�R�[�h
-					BANKS,  " ���R�[�h
+WITH NON-UNIQUE KEY KUNNR   " 得意先コード
+					BANKS,  " 国コード
 	
 READ TABLE TL_KNBK INTO WL_KNBK
-  WITH TABLE KEY KUNNR = <FS_BSXD_2>-KUNNR "���Ӑ�R�[�h
-				 BANKS = VL_LAND1.         "���R�[�h
+  WITH TABLE KEY KUNNR = <FS_BSXD_2>-KUNNR "得意先コード
+				 BANKS = VL_LAND1.         "国コード
 				 
-TYP_T_BSXD_2    TYPE SORTED   TABLE OF  TYP_BSXD_2      " �����ׁi�񎟁j
-					 WITH UNIQUE KEY  BUKRS     " ��ЃR�[�h
-									  KUNNR     " ���Ӑ�R�[�h
-									  GJAHR     " ��v�N�x
-									  BELNR     " ��v�`�[�ԍ�
-									  BUZEI,    " ��v�`�[���הԍ�
+TYP_T_BSXD_2    TYPE SORTED   TABLE OF  TYP_BSXD_2      " 債権明細（二次）
+					 WITH UNIQUE KEY  BUKRS     " 会社コード
+									  KUNNR     " 得意先コード
+									  GJAHR     " 会計年度
+									  BELNR     " 会計伝票番号
+									  BUZEI,    " 会計伝票明細番号
 
 INSERT  WL_BSXD_2  INTO TABLE  C_T_BSXD_2.
 
@@ -39,12 +39,12 @@ INSERT line INTO TABLE itab.
 
 HASHED TABLE
 TYP_T_SKAT TYPE HASHED TABLE OF TYP_SKAT
-WITH UNIQUE KEY KTOPL       " ����R�[�h�\
-				SAKNR,      " G/L ����R�[�h
+WITH UNIQUE KEY KTOPL       " 勘定コード表
+				SAKNR,      " G/L 勘定コード
 				
 READ TABLE TL_SKAT INTO WL_SKAT
-  WITH TABLE KEY KTOPL = VL_KTOPL            "����R�[�h�\
-				 SAKNR = <FS_BSXD_2>-HKONT.  "G/L ����R�[�h
+  WITH TABLE KEY KTOPL = VL_KTOPL            "勘定コード表
+				 SAKNR = <FS_BSXD_2>-HKONT.  "G/L 勘定コード
 				 
 				 
 				 
@@ -62,7 +62,7 @@ SY-UCOMM: Current Function Code.
 SY-DATAR: Check if a User Made Any Input.
 SY-CPROG: Getting the Current Program Name.
 
-��?����
+光?操作
 
 DATA: w_fname(20) TYPE c,
       w_val(10) TYPE c.
@@ -74,7 +74,7 @@ PARAMETERS: p1(10) TYPE c,
 AT SELECTION-SCREEN.
   CHECK sy-ucomm IS INITIAL.
   GET CURSOR FIELD w_fname VALUE w_val.
-  CHECK w_val IS INITIAL.   "�@�ʖv�L?��
+  CHECK w_val IS INITIAL.   "如果没有?入
   CLEAR w_fname.
 
 AT SELECTION-SCREEN OUTPUT.
@@ -120,3 +120,5 @@ AT SELECTION-SCREEN OUTPUT.
       MODIFY SCREEN.
     ENDLOOP.
   ENDIF.
+
+CG3Y 从服务器下载文件
