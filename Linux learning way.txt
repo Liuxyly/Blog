@@ -65,3 +65,8 @@ gateway xxx.xxx.xxx.xxx
 
 
 /etc/inittab
+
+hadoop的配置
+
+#http://cnlox.is-programmer.com/tag/Hadoop
+
