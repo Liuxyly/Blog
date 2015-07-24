@@ -1,0 +1,5 @@
+chef/centos-7.0
+ubuntu/trusty64
+freebsd
+spn/centos62-tmh6
+begriffs/haskell-pair
