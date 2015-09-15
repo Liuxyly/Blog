@@ -5,3 +5,8 @@ expect \"Password:\"
 send \"111111\r\"     #111111是密码
 interact
 "
+
+#!/bin/sh
+#root用户的时候
+#以vagrant用户运行命令
+su - vagrant -c "Command"
