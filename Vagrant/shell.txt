@@ -1,0 +1,7 @@
+#!/bin/sh
+expect -c "
+spawn su - root       #root是用户
+expect \"Password:\"
+send \"111111\r\"     #111111是密码
+interact
+"
