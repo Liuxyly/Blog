@@ -1,4 +1,5 @@
-﻿http://scn.sap.com/docs/DOC-56411
+http://www.tuicool.com/kans/1486699827
+http://scn.sap.com/docs/DOC-56411
 http://www.cnblogs.com/hanmos/p/3425511.html
 http://www.hanainchina.net/
 http://scn.sap.com/community/chinese/hana/blog/2013/10/05/%E7%BF%BB%E8%AF%91-30%E5%A4%A9%E5%85%8D%E8%B4%B9%E8%AF%95%E7%94%A8%E5%BC%80%E5%8F%91%E8%80%85%E7%89%88%E6%9C%ACsap-hana
