@@ -1,0 +1,37 @@
+配置/etc/hosts
+11.11.1.11 web
+11.11.1.12 db
+NFS配置
+主节点：
+sudo apt-get install nfs-server
+计算节点：
+sudo apt-get install nfs-client
+创建所有节点共享文件夹
+主节点：
+sudo mkdir /mirror
+sudo chown vagrant /mirror
+sudo vi /etc/exports
+>/mirror *(rw,sync)
+
+sudo service nfs-kernel-server restart
+计算节点：
+sudo mkdir /mirror
+sudo chown vagrant /mirror
+sudo vi /etc/fstab
+>web:/mirror	/mirror	nfs
+
+免密码SSH登录：
+主节点：
+ssh­-keygen ­-t rsa
+ssh vagrant@db mkdir -p .ssh
+cat .ssh/id_rsa.pub | ssh user@db 'cat >> .ssh/authorized_keys'
+
+安装gcc, mif90和mpich2等
+sudo apt-get install build-essential libmpich-dev mpich2
+
+MPI并行计算测试
+主节点：
+cd /mirror
+sudo vim machinefile
+web
+db
