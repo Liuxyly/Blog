@@ -1,3 +1,6 @@
+参照此文：
+https://help.ubuntu.com/community/MpichCluster
+
 配置/etc/hosts
 11.11.1.11 web
 11.11.1.12 db
