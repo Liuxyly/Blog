@@ -52,3 +52,6 @@ cd /mirror
 sudo vim machinefile
 web
 db
+
+mpicc hello.c -o hello
+mpiexec -np 8 -f machinefile ./hello
