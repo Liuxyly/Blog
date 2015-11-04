@@ -1,0 +1,24 @@
+# 指明本配置文件是V2版本
+Vagrant.configure("2") do |config|
+ 
+  # 设置初始box，也可每个虚拟机单独设置
+	  config.vm.box = "ubuntu/trusty64"
+	 
+	  config.vm.define "web" do |web|
+		# 基本服务器参数设置
+		web.vm.provider "virtualbox" do |v|
+		  # 指明在virtual box中的名称，和所用内存
+		  v.customize ["modifyvm", :id, "--name", "web", "--memory", "256"]
+		end
+	  web.vm.hostname = "web"
+	  web.vm.network "private_network", ip: "11.11.1.11"
+	end
+	 
+	config.vm.define "db1" do |db|
+	  db.vm.provider "virtualbox" do |v|
+		v.customize ["modifyvm", :id, "--name", "db", "--memory", "256"]
+	  end
+	  db.vm.hostname = "db"
+	  db.vm.network "private_network", ip: "11.11.1.12"
+	end
+end
