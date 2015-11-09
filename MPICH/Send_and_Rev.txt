@@ -23,7 +23,7 @@ MPI通信机制分为同步通信和异步通信二种机制。
 	IN		datatype	接收消息时返回的类型
 	OUT		Count		接收消息时数组元素的个数
 
-4.       int MPI_Sendrecv(void *sendbuf,int sendcount,MPI_Datatype sendtype,int dest,int sendtag,void *recvbuf,int recvcount,MPI_Datatype recvtype,int source,int recvtag,MPI_Comm comm,MPI_Status *status)
+4.int MPI_Sendrecv(void *sendbuf,int sendcount,MPI_Datatype sendtype,int dest,int sendtag,void *recvbuf,int recvcount,MPI_Datatype recvtype,int source,int recvtag,MPI_Comm comm,MPI_Status *status)
 	IN		sendbuf		所要发送消息数据的首地址
 	IN		sendcount	发送消息数组元素的个数
 	IN		sendtype	发送消息的数据类型
