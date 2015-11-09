@@ -69,7 +69,7 @@ MPI通信机制分为同步通信和异步通信二种机制。
 	IN		dest		接收消息的进程编号
 	IN		tag		消息标签
 	IN		comm		通信子
-	OUT		request		请求句柄一杯将来查询
+	OUT		request		请求句柄以备将来查询
 
 2.int MPI_Irecv(void *buf,int count,MPI_Datatype datatype,int source,int tag,MPI_Comm comm,MPI_Request *request)
 	OUT		buf		接收消息数据的首地址
@@ -78,7 +78,7 @@ MPI通信机制分为同步通信和异步通信二种机制。
 	IN		source		发送消息的进程编号
 	IN		tag		消息标签
 	IN		comm		通信子
-	OUT		request		请求句柄以北将来查询
+	OUT		request		请求句柄以以备来查询
 
 MPI_Isend和MPI_Irecv不需要等待发送或接收消息完成就可以执行其他任务
 3.Int MPI_wait(MPI_Request *request,MPI_Status *status)
