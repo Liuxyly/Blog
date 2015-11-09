@@ -1,0 +1,132 @@
+MPI通信机制分为同步通信和异步通信二种机制。
+
+阻塞式函数
+1.int MPI_send(void *buf,int count,MPI_Datatype datatype,int dest,int tag,MPI_Comm comm)
+	IN		buf			所要发送消息数据的首地址
+	IN		count		发送消息数组元素的个数
+	IN      datatype	发送消息的数据类型
+	IN      dest		接收消息的进程编号
+	IN      tag			消息标签
+	IN      comm		通信子
+
+2.int MPI_Recv(void *buf,int count,MPI_Datatype datatype,int source,int tag,MPI_Comm comm,MPI_Status *status)
+	OUT		buf			接收消息数据的首地址
+	IN		Count		接收消息数组元素的最大个数
+	IN		datatype	接收消息的数据类型
+	IN		source		发送消息的进程编号
+	IN		tag			消息标签
+	IN		comm		通信子
+	OUT		status		接收消息时返回的状态
+
+3.int MPI_Get_Count(MPI_Status status,MPI_Datatype datatype,int *count)
+	IN		status		接收消息时返回的状态
+	IN		datatype	接收消息时返回的类型
+	OUT		Count		接收消息时数组元素的个数
+
+4.       int MPI_Sendrecv(void *sendbuf,int sendcount,MPI_Datatype sendtype,int dest,int sendtag,void *recvbuf,int recvcount,MPI_Datatype recvtype,int source,int recvtag,MPI_Comm comm,MPI_Status *status)
+	IN		sendbuf		所要发送消息数据的首地址
+	IN		sendcount	发送消息数组元素的个数
+	IN		sendtype	发送消息的数据类型
+	IN		dest		接收消息的进程编号
+	IN		sendtag		发送消息标签
+	OUT		recvbuf		接收消息数据的首地址
+	IN		recvcount	接收消息数组元素的最大个数
+	IN		recvtype	接收消息的数据类型
+	IN		Source		发送消息的进程编号
+	IN		recvtag		接收消息标签
+	IN		comm		通信子
+	OUT		status		接收消息时返回的状态
+
+5.int MPI_Sendrecv_replace(void *sendbuf,int count,MPI_Datatype datatype,int dest,int sendtag,int source,int recving,MPI_Comm comm,MPI_Status *status)
+	OUT		buf			发送和接收消息数据的首地址
+	IN		Count		发送和接收消息数组元素的个数
+	IN		dest		接收消息的进程编号
+	IN		sendtag		发送消息标签
+	IN		source		发送消息的进程编号
+	IN		recvtag		接收消息标签
+	IN		comm		通信子
+	OUT		status		接收消息时返回的状态
+
+6.int MPI_probe(int source,int tag,MPI_Comm comm,MPI_Status *status)
+	IN		source		发送消息进程的编号
+	IN		tag			接收消息的标签
+	IN		comm		通信子
+	OUT		status		返回到消息的状态
+
+7.int MPI_Iprobe(int source,int tag,MPI_Comm comm,int *flag,MPI_Status *status)
+	IN		source		发送消息进程的编号
+	IN		tag			接收消息的标签
+	IN		comm		通信子
+	OUT		flag		如果指定消息已经到达，flag返回值为true
+	OUT		status		返回到达消息的状态
+
+非阻塞式函数
+非阻塞式通信函数是指在通信过程中，不需要等待通信结束就返回，通常这种通信过程交由计算机的后台来处理，如果计算机系统提供硬件支持非阻塞式通信函数，就可以使计算与通信在时间上的重叠，从而提高并行计算的效率。
+1.int MPI_Isend(void *buf,int count,MPI_Datatype datatype,int dest,int tag,MPI_Comm comm,MPI_Request *request)
+	IN		buf			所要发送消息数据的首地址
+	IN		count		发送消息数组元素的个数
+	IN		datatype	发送消息的数据类型
+	IN		dest		接收消息的进程编号
+	IN		tag			消息标签
+	IN		comm		通信子
+	OUT		request		请求句柄一杯将来查询
+
+2.int MPI_Irecv(void *buf,int count,MPI_Datatype datatype,int source,int tag,MPI_Comm comm,MPI_Request *request)
+	OUT		buf			接收消息数据的首地址
+	IN		Count		接收消息数组元素的个数
+	IN		datatype	接收消息的数据类型
+	IN		source		发送消息的进程编号
+	IN		tag			消息标签
+	IN		comm		通信子
+	OUT		request		请求句柄以北将来查询
+
+MPI_Isend和MPI_Irecv不需要等待发送或接收消息完成就可以执行其他任务
+3.Int MPI_wait(MPI_Request *request,MPI_Status *status)
+	INOUT	request		请求句柄
+	OUT		status		发送或接收消息的状态
+
+如果request所指的操作已经完成，MPI_Wait将结束等待状态
+4.Int MPI_Test(MPI_Request *request,int *flag,MPI_Status *status)
+	INOUT	request		请求句柄
+	OUT		flag		request所指的操作已经完成返回值为true
+	OUT		status		发送或接收消息的状态
+
+5.Int MPI_Request_free(MPI_Request *request)
+	INOUT	request		请求句柄，返回值为MPI_Request_null
+	
+对单个request进行查询
+6.Int MPI_Waitany(int count,MPI_Request *array_of_requests,int *index,MPI_Status *status)
+	IN		count		请求句柄的个数
+	INOUT	array_of_requests	请求句柄数组
+	OUT		index		已经完成通信操作的句柄指标
+	OUT		status		消息的状态
+	
+当所有请求句柄中至少有一个已经完成通信操作，就返回，如果有多于一个请求句柄已经完成，MPI_waitany将随机选择其中的一个并立即返回
+7.Int MPI_Testany(int Count,MPI_Request *array)
+	IN		count		请求句柄个数
+	INOUT	array_of_requests	请求句柄数组
+	OUT		index		已经完成通信操作的句柄指标
+	OUT		flag		如果有一个已经完成，则flag=true
+	OUT		status		消息的状态
+	
+无论有没有通信操作完成都将立即返回
+8.Int MPI_Waitall(int Count,MPI_Request *array_of_requests)
+	IN		count		请求句柄的个数
+	INOUT	array_of_requests	请求句柄数组
+	INOUT	array_of_status		所有消息的状态数组
+	
+所有通信操作完成之后才返回，否则将一直等待
+9.Int MPI_Testall(int Count,MPI_Request *array_of_requests,int *flag,MPI_Status *array_of_status)
+	IN		count		请求句柄的个数
+	INOUT	array_of_requests	请求句柄数组
+	OUT		flag		如果有一个没完成，则flag=false
+	INOUT	array_of_status		所有消息的状态数组
+	
+无论所有通信操作是否完成都立即返回
+10.Int MPI_Cancel(MPI_Request *request)
+	INOUT	request		请求句柄
+	
+取消一个发送或接收操作
+11.Int MPI_Test_cancelled(MPI_Status *status,int *flag)
+	IN		status		消息的状态
+	OUT		flag		如果已经取消，则flag=true
