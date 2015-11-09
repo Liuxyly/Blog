@@ -2,19 +2,19 @@ MPI通信机制分为同步通信和异步通信二种机制。
 
 阻塞式函数
 1.int MPI_send(void *buf,int count,MPI_Datatype datatype,int dest,int tag,MPI_Comm comm)
-	IN		buf			所要发送消息数据的首地址
+	IN		buf		所要发送消息数据的首地址
 	IN		count		发送消息数组元素的个数
-	IN      datatype	发送消息的数据类型
-	IN      dest		接收消息的进程编号
-	IN      tag			消息标签
-	IN      comm		通信子
+	IN		datatype	发送消息的数据类型
+	IN		dest		接收消息的进程编号
+	IN		tag		消息标签
+	IN		comm		通信子
 
 2.int MPI_Recv(void *buf,int count,MPI_Datatype datatype,int source,int tag,MPI_Comm comm,MPI_Status *status)
-	OUT		buf			接收消息数据的首地址
+	OUT		buf		接收消息数据的首地址
 	IN		Count		接收消息数组元素的最大个数
 	IN		datatype	接收消息的数据类型
 	IN		source		发送消息的进程编号
-	IN		tag			消息标签
+	IN		tag		消息标签
 	IN		comm		通信子
 	OUT		status		接收消息时返回的状态
 
@@ -82,29 +82,29 @@ MPI通信机制分为同步通信和异步通信二种机制。
 
 MPI_Isend和MPI_Irecv不需要等待发送或接收消息完成就可以执行其他任务
 3.Int MPI_wait(MPI_Request *request,MPI_Status *status)
-	INOUT	request		请求句柄
+	INOUT		request		请求句柄
 	OUT		status		发送或接收消息的状态
 
 如果request所指的操作已经完成，MPI_Wait将结束等待状态
 4.Int MPI_Test(MPI_Request *request,int *flag,MPI_Status *status)
-	INOUT	request		请求句柄
+	INOUT		request		请求句柄
 	OUT		flag		request所指的操作已经完成返回值为true
 	OUT		status		发送或接收消息的状态
 
 5.Int MPI_Request_free(MPI_Request *request)
-	INOUT	request		请求句柄，返回值为MPI_Request_null
+	INOUT		request		请求句柄，返回值为MPI_Request_null
 	
 对单个request进行查询
 6.Int MPI_Waitany(int count,MPI_Request *array_of_requests,int *index,MPI_Status *status)
 	IN		count		请求句柄的个数
-	INOUT	array_of_requests	请求句柄数组
+	INOUT		array_of_requests	请求句柄数组
 	OUT		index		已经完成通信操作的句柄指标
 	OUT		status		消息的状态
 	
 当所有请求句柄中至少有一个已经完成通信操作，就返回，如果有多于一个请求句柄已经完成，MPI_waitany将随机选择其中的一个并立即返回
 7.Int MPI_Testany(int Count,MPI_Request *array)
 	IN		count		请求句柄个数
-	INOUT	array_of_requests	请求句柄数组
+	INOUT		array_of_requests	请求句柄数组
 	OUT		index		已经完成通信操作的句柄指标
 	OUT		flag		如果有一个已经完成，则flag=true
 	OUT		status		消息的状态
@@ -112,19 +112,19 @@ MPI_Isend和MPI_Irecv不需要等待发送或接收消息完成就可以执行�
 无论有没有通信操作完成都将立即返回
 8.Int MPI_Waitall(int Count,MPI_Request *array_of_requests)
 	IN		count		请求句柄的个数
-	INOUT	array_of_requests	请求句柄数组
-	INOUT	array_of_status		所有消息的状态数组
+	INOUT		array_of_requests	请求句柄数组
+	INOUT		array_of_status		所有消息的状态数组
 	
 所有通信操作完成之后才返回，否则将一直等待
 9.Int MPI_Testall(int Count,MPI_Request *array_of_requests,int *flag,MPI_Status *array_of_status)
 	IN		count		请求句柄的个数
-	INOUT	array_of_requests	请求句柄数组
+	INOUT		array_of_requests	请求句柄数组
 	OUT		flag		如果有一个没完成，则flag=false
-	INOUT	array_of_status		所有消息的状态数组
+	INOUT		array_of_status		所有消息的状态数组
 	
 无论所有通信操作是否完成都立即返回
 10.Int MPI_Cancel(MPI_Request *request)
-	INOUT	request		请求句柄
+	INOUT		request		请求句柄
 	
 取消一个发送或接收操作
 11.Int MPI_Test_cancelled(MPI_Status *status,int *flag)
