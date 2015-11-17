@@ -1,6 +1,7 @@
 #GCC中常见Message
 ---
 1. warning:suggest parentheses around assignment used as truth value 
+---
 ```
   if ( atype=search(alphatp, 1) )
 ```
