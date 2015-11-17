@@ -15,6 +15,7 @@
 if ( ( atype=search(alphatp, 1) ) )  即加一个括号括起来就可以了
 
 2. clang: error: unknown argument: '-fexec-charset=UTF-8'
+---
 ###解决
 ```
 $ sudo vim /usr/share/GNUstep/Makefiles/Additional/base.make
