@@ -1,0 +1,3895 @@
+BAPIs f. BOR obj. BUS4003 (AddrContPart)
+
+BAPI_CHARACT_GETLIST BAPI for Characteristics - Find Name
+
+0002 Company Code Business Object
+
+BAPI_CCODE_GET_FIRSTDAY_PERIOD For Company Code: First Day of Period
+
+BAPI_CCODE_GET_LASTDAY_FYEAR For Company Code: Last Day of Fiscal Year
+
+BAPI_COMPANYCODE_EXISTENCECHK Check if Company Code Exists
+
+BAPI_COMPANYCODE_GETDETAIL Company Code Details
+
+BAPI_COMPANYCODE_GETLIST List of Company Codes
+
+BAPI_COMPANYCODE_GET_PERIOD For Company Code: Posting Date -> Period, Fiscal Year
+
+0003 Business Area Business Object
+
+BAPI_BUSINESSAREA_EXISTENCECHK Check if business area exists
+
+BAPI_BUSINESSAREA_GETDETAIL Business area details
+
+BAPI_BUSINESSAREA_GETLIST List of business areas
+
+0004 Business Object Controlling Area
+
+BAPI_CONTROLLINGAREA_GETDETAIL List Detail Information for Controlling Area
+
+0004CORE Business Object: Controlling Area (Core)
+
+BAPI_COAREA_GETPERIODLIMITS Controlling Area: First and Last Day of a Period
+
+BAPI_COAREA_GET_RELATED_CCODES Determine Company Codes Assigned to one Controlling 
+
+Area
+
+BAPI_CONTROLLINGAREA_FIND Derive Controlling Area from Company Code
+
+BAPI_CONTROLLINGAREA_GETLIST Output List of Controlling Areas
+
+BAPI_CONTROLLINGAREA_GETPERIOD For Controlling Area: Posting Date -> Period, Fiscal 
+
+Year
+
+0006 Sales organization
+
+BAPI_SALESGROUP_GET_DETAIL Sales Group: Display Name
+
+BAPI_SALESOFFICE_GET_DETAIL Sales Office: Display Name
+
+BAPI_SALESOFFICE_GRP_EXIST Sales Office / Sales Group: Existence Check
+
+BAPI_SALESORG_EXIST Sales Organization: Existence Check
+
+BAPI_SALESORG_GET_DETAIL Sales Organization: Display Data
+
+BAPI_SALESORG_OFFICE_EXIST Sales Organization / Sales Office: Existence Check
+
+0012 Business Object BUS0012 (Cost Center)
+
+BAPI_COSTCENTER_CREATEMULTIPLE Create One or More Cost Centers
+
+BAPI_COSTCENTER_GETDETAIL Detailed Information About Cost Center For Key Date
+
+BAPI_COSTCENTER_GETDETAIL1 Detail Information for Cost Center on Key Date (1)
+
+BAPI_COSTCENTER_GETLIST List of Cost Centers Using Selection Criteria
+
+BAPI_COSTCENTER_GETLIST1 List of Cost Centers for Selection Criteria (1)
+
+BAPI_CTR_GETACTALLOCATIONTYPES Checks Which IST-ILV Types are Possible According to 
+
+Activity Type Categ.
+
+BAPI_CTR_GETACTIVITYPRICES Read prices for cost center/activity type according to 
+
+selection
+
+BAPI_CTR_GETACTIVITYQUANTITIES Rad plan activity/capacity/scheduled activity for 
+
+cost center/acty type
+
+BAPI_CTR_GETACTIVITYTYPES List of cost centers / activity types with control 
+
+information
+
+0014 Company Business Object
+
+BAPI_COMPANY_EXISTENCECHECK Check if company exists
+
+BAPI_COMPANY_GETDETAIL Company details
+
+BAPI_COMPANY_GETLIST List of companies
+
+0015 Profit Center BAPI
+
+BAPI_PROFITCENTER_CHANGE Change Profit Center
+
+BAPI_PROFITCENTER_CREATE Create Profit Center
+
+BAPI_PROFITCENTER_GETDETAIL Display Profit Center Master Data
+
+BAPI_PROFITCENTER_GETLIST Display List of Profit Centers
+
+0023 Functional Area Business Object
+
+BAPI_FUNC_AREA_EXISTENCECHECK Check if functional area exists
+
+BAPI_FUNC_AREA_GETDETAIL Functional area details
+
+BAPI_FUNC_AREA_GETLIST List of functional areas
+
+0PBAPI0105 Bapis for infotype 0105
+
+BAPI_EMPLCOMM_CHANGE Change communication
+
+BAPI_EMPLCOMM_CREATE Create communication
+
+BAPI_EMPLCOMM_CREATESUCCESSOR Create subsequent communication record
+
+BAPI_EMPLCOMM_DELETE Delete communication
+
+BAPI_EMPLCOMM_DELIMIT Delimit communications
+
+BAPI_EMPLCOMM_GETDETAIL Read communication
+
+BAPI_EMPLCOMM_GETDETAILEDLIST Communication: Read instances with data
+
+BAPI_EMPLCOMM_GETLIST Read communication
+
+1001 BAPIs for Business Object RetailMaterial
+
+BAPI_MATERIAL_MAINTAINDATA_RT Create and Change Material Master Data (Retail)
+
+1001DIA Dialog APIs for Business Object Material
+
+BAPI_MATERIAL_DELETE Flag Material for Deletion
+
+BAPI_MATERIAL_DISPLAY Display Material
+
+BAPI_MATERIAL_EDIT Change Material
+
+BAPI_RETAILMATERIAL_CREATE Create Material
+
+BAPI_RETAILMATERIAL_DELETE Discontinue Material
+
+BAPI_STANDARDMATERIAL_CREATE Create/Extend Material
+
+1001UEB BAPIs for Creating/Changing Matl Data
+
+BAPI_MATERIAL_SAVEDATA Create and Change Material Master Data
+
+1006 Business partner
+
+BAPI_PAR_EMPLOYEE_CHANGEPASSWO Change contact person’s password
+
+BAPI_PAR_EMPLOYEE_CHECKEXISTEN Check contact person’s number
+
+BAPI_PAR_EMPLOYEE_CHECKPASSWOR Check contact person’s password
+
+BAPI_PAR_EMPLOYEE_CREATE_PW_RE Create entry for contact person’s password
+
+BAPI_PAR_EMPLOYEE_DELETE_PW_RE Delete entry for contact person’s password
+
+BAPI_PAR_EMPLOYEE_GET_PW_REG Read entry for contact person’s password
+
+BAPI_PAR_EMPLOYEE_INITPASSWORD Initialize contact person’s password
+
+1007 Customer business object
+
+BAPI_DEBTOR_CHANGEPASSWORD Change Customer Password
+
+BAPI_DEBTOR_CHECKPASSWORD Check Customer Password
+
+BAPI_DEBTOR_CREATE_PW_REG Create Entry for Customer Password
+
+BAPI_DEBTOR_DELETE_PW_REG Delete Customer Password Entry
+
+BAPI_DEBTOR_EXISTENCECHECK Check Customer Existence
+
+BAPI_DEBTOR_FIND Customer Matchcode
+
+BAPI_DEBTOR_GETDETAIL Customer Detail Information
+
+BAPI_DEBTOR_GET_PW_REG Read Entry for Customer Password
+
+BAPI_DEBTOR_INITPASSWORD Initialize Customer Password
+
+1008 Vendor business object
+
+BAPI_CREDITOR_CHANGEPASSWORD Change Vendor Password
+
+BAPI_CREDITOR_CHECKPASSWORD Check Vendor Password
+
+BAPI_CREDITOR_CREATE_PW_REG Create Entry for Vendor Password
+
+BAPI_CREDITOR_DELETE_PW_REG Delete Entry for Vendor Password
+
+BAPI_CREDITOR_EXISTENCECHECK Check Existence of Vendor
+
+BAPI_CREDITOR_FIND Vendor matchcode
+
+BAPI_CREDITOR_GETDETAIL Vendor Details
+
+BAPI_CREDITOR_GET_PW_REG Read entry for vendor password
+
+BAPI_CREDITOR_INITPASSWORD Initialize Vendor Password
+
+1010 Customer credit account business object
+
+BAPI_CREDIT_ACCOUNT_GET_STATUS Determine Credit Status of Credit Account
+
+BAPI_CREDIT_ACCOUNT_REP_STATUS Receive Credit Management Account Status and Send to 
+
+Database
+
+BAPI_CR_ACC_GETDETAIL BAPI/BUS1010: Determine Master Record Data
+
+BAPI_CR_ACC_GETHIGHESTDUNNINGL BAPI/BUS1010: Determine Highest Dunning Level
+
+BAPI_CR_ACC_GETOLDESTOPENITEM BAPI/BUS1010: Determine Oldest Open Item
+
+BAPI_CR_ACC_GETOPENITEMSSTRUCT BAPI/BUS1010: Determine OI Structure
+
+1021 Spec.Purpose Ledger BUS1021
+
+BAPI_SL_GETTOTALRECORDS Special Purpose Ledger: Select totals records for accounts
+
+1022 BAPIs for BUS1022 (Fixed asset)
+
+BAPI_FIXEDASSET_CHANGE Changes an Asset
+
+BAPI_FIXEDASSET_CREATE Creates an Asset
+
+BAPI_FIXEDASSET_CREATE1 Creates an Asset
+
+BAPI_FIXEDASSET_GETDETAIL Display Detailed Information on a Fixed Asset
+
+BAPI_FIXEDASSET_GETLIST Information on Selected Assets
+
+BAPI_FIXEDASSET_OVRTAKE_CREATE BAPI for Legacy Data Transfer
+
+1024 Business Object ConsUnit
+
+BAPI_CONSUNIT_GETCURRENCY Procure Reporting Currency
+
+BAPI_CONSUNIT_GETLIST Display Consolidation Units
+
+1025 Business Object ConsChartOfAccts
+
+BAPI_CONSCHARTOFACCTS_GETITEMS Display Financial Statement Items
+
+BAPI_CONSCHARTOFACCTS_GETLIST Display Consolidation Charts of Accounts
+
+1026 Business Object ConsLedger
+
+BAPI_CONSLEDGER_GETEQUITY Display Changes in Investee Equity
+
+BAPI_CONSLEDGER_GETINVESTMENT Display Changes in Investments
+
+BAPI_CONSLEDGER_GETTOTALS Display Totals Records
+
+1027 Business Object ConsGroup
+
+BAPI_CONSGROUP_GETCONSUNITS BAPI - Consolidation Group - Get Consolidation Units
+
+BAPI_CONSGROUP_GETLIST Display Consolidation Groups
+
+1028 Business Object General Ledger
+
+BAPI_GLX_GETDOCITEMS Line item of document for ledger with summary table GLFLEXT
+
+BAPI_GL_GETGLACCBALANCE Closing balance of G/L account for chosen year
+
+BAPI_GL_GETGLACCCURRENTBALANCE Closing balance of G/L account for current year
+
+BAPI_GL_GETGLACCPERIODBALANCES Posting period balances for each G/L account
+
+1030 Business Object BUS1030 (Cost Element)
+
+BAPI_COSTELEM_CREATEMULTIPLE Create One or More Cost Elements
+
+BAPI_COSTELEM_GETDETAIL Detail Information for Cost Element on Key Date
+
+BAPI_COSTELEM_GETLIST List of Cost Elements for Selection Criteria
+
+1031 Business Object BUS1031 (Activity Type)
+
+BAPI_ACTIVITYTYPE_GETDETAIL Detail Information for Activity Type on Key Date
+
+BAPI_ACTIVITYTYPE_GETLIST List of Activity Types Using Selection Criteria
+
+BAPI_ACTIVITYTYPE_GETPRICES Output Activity Prices for Activity Types on Key Date
+
+BAPI_ACTTYPE_CREATEMULTIPLE Create One or More Activity Types
+
+1036 Business Object BUS1036 Business Process
+
+BAPI_PROCESS_CREATEMULTIPLE Create one or more business processes
+
+BAPI_PROCESS_GETACTALLOCTYPES Checks Which IST-ILV Types are Possible According to 
+
+Activity Type Categ.
+
+BAPI_PROCESS_GETDETAIL Detail information for business process on key date
+
+BAPI_PROCESS_GETLIST List of business processes per selection conditions
+
+BAPI_PROCESS_SAVE_REPLICA Replicate individual business process (ALE)
+
+BAPI_PROCESS_SETSTRUCTURE Enter template in business process master data
+
+1037 Business object BUS1037
+
+BAPI_BPCONTACT_ADD_TO_ASGN BAPI Partner Sales Activity AddToAssigned
+
+BAPI_BPCONTACT_CHANGE BAPI Change Partner Sales Activity
+
+BAPI_BPCONTACT_CREATEFROMDATA BAPI Partner Sales Activity Create from Data
+
+BAPI_BPCONTACT_CREATEWITHDIA BAPI Partner Sales Activity - Create from Data Dialog
+
+BAPI_BPCONTACT_DELETE BAPI Delete Partner Sales Activity
+
+BAPI_BPCONTACT_GETDETAIL BAPI Partner Sales Activity - Get Details
+
+BAPI_BPCONTACT_GETLIST BAPI Partner Sales Activity - Get List
+
+BAPI_BPCONTACT_REMOVEFROM_ASGN BAPI Partner Sales Activity RemoveFromAssigned
+
+BAPI_BPCONTACT_REPLICATE BAPI Partner Sales Activity Replicate
+
+BAPI_BPCONTACT_REPLICATECHANGE BAPI Partner Sales Activity Replicate Changed Objects
+
+BAPI_BPCONTACT_SAVEFROMMEMORY BAPI Partner Sales Activity - Save from Memory
+
+BAPI_BPCONTACT_SETTOACTIVE BAPI Partner Sales Activity - Set simulated to active
+
+1057 Business Object Investment Program
+
+BAPI_INVPROGRAM_CHECKEXISTENCE Check Existence (of Sub-Tree) of Program
+
+BAPI_INVPROGRAM_GET_LEAVES Output End Nodes of an Investment Program
+
+BAPI_INVPROGRAM_GET_REQUESTS Output Appropriation Requests and End Nodes of an 
+
+Investment Program
+
+BAPI_INVPROGRAM_SAVE_ENTITIES Save Assigned Entities in Summarization Database
+
+BAPI_INVPROGRAM_SAVE_VALUES Save Summarized Values in Summarization Database
+
+BAPI_INVPROGRAM_SELRE_ENTITIES Select Assigned Entities and Replicate Them in 
+
+Summarization DB
+
+BAPI_INVPROGRAM_SELRE_VALUES Select Values, Summarize Them and Replicate in 
+
+Summarization DB
+
+1065 Business Object Employee
+
+BAPI_EMPLOYEET_CHANGEPASSWORD Change employee password
+
+BAPI_EMPLOYEET_CHECKPASSWORD Check employee password
+
+BAPI_EMPLOYEET_CREATE_PW_REG Create entry for employee password
+
+BAPI_EMPLOYEET_DELETE_PW_REG Delete entry for employee password
+
+BAPI_EMPLOYEET_DEQUEUE Unlock employee
+
+BAPI_EMPLOYEET_ENQUEUE Lock employee
+
+BAPI_EMPLOYEET_GET_PW_REG Read entry for employee password
+
+BAPI_EMPLOYEET_INITPASSWORD Initialize employee password
+
+BAPI_EMPLOYEE_CHANGEPASSWORD Change employee password
+
+BAPI_EMPLOYEE_CHECKEXISTENCE Check employee existence
+
+BAPI_EMPLOYEE_CHECKPASSWORD Check employee password
+
+BAPI_EMPLOYEE_CREATE_PW_REG Create entry for employee password
+
+BAPI_EMPLOYEE_DELETE_PW_REG Delete entry for employee password
+
+BAPI_EMPLOYEE_DEQUEUE Unlock employee
+
+BAPI_EMPLOYEE_ENQUEUE Lock employee
+
+BAPI_EMPLOYEE_GETDATA_OLD No Longer Used -> Function group RH65
+
+BAPI_EMPLOYEE_GET_PW_REG Read entry for employee password
+
+BAPI_EMPLOYEE_INITPASSWORD Initialize employee password
+
+1069 Business object 1069 (retail site)
+
+BAPI_RETAILSITE_GETDEPARTMENTS Determine departments of a plant (including 
+
+description)
+
+BAPI_RETAILSITE_GETMATGROUPS Material groups for a plant (retail plant) incl. 
+
+description
+
+1070 Business Object Assortment
+
+BAPI_ASSORTMENT_MAINTAINDATA Maintenance of Assortments
+
+1071 Prod. cat: BAPIs
+
+BAPI_ADV_MED_GET_ITEMS Read Product Catalog Items
+
+BAPI_ADV_MED_GET_LAYOBJ_DESCR Read Long Text for Layout Area or Layout Area Item
+
+BAPI_ADV_MED_GET_LAYOBJ_DOCS Read Documents for a Layout Area or a Layout Area Item
+
+BAPI_ADV_MED_GET_LAYOUT Read Product Catalog Layout
+
+BAPI_ADV_MED_GET_LIST Read Product Catalog List
+
+BAPI_ADV_MED_GET_PRICES Read Product Catalog Item Prices
+
+BAPI_ADV_MED_GET_SALES_AREA Read Sales Area for a Product Catalog
+
+BAPI_ADV_MED_GET_VARIANT_LIST Read Product Catalog Variants
+
+BAPI_PRODCAT_GETITEM Read Individual Product Catalog Item
+
+BAPI_PRODCAT_GETPRICES Read Product Catalog Item Prices
+
+BAPI_PRODCAT_GET_DETAIL Read Header Data for a Product Catalog
+
+BAPI_PRODCAT_REPLICATEHEAD Replicate Basic and Structure Data of a Product Catalog 
+
+(ALE Outbound)
+
+BAPI_PRODCAT_REPLICATEITEMS Replicate Item Data of a Product Catalog (ALE Outbound)
+
+BAPI_PRODCAT_SAVEHEADREPLICA Replicate Basic and Structure Data of a Product Catalog 
+
+(ALE Inbound)
+
+BAPI_PRODCAT_SAVEITEMSREPLICA Replicate Item Data of a Product Catalog (ALE Inbound)
+
+1076 Business Object 1076 (Financial product)
+
+BAPI_FP_CHANGE Change Security
+
+BAPI_FP_CREATEFROMDATA Create Security
+
+BAPI_FP_GETDETAIL Read Security Detailed Data
+
+BAPI_FP_GETLIST Read Security List
+
+1078 DG-Mat: Business object dangerous good
+
+BAPI_DANGEROUSGOOD_REPLICATE Dangerous goods: Request instances
+
+BAPI_DANGEROUSGOOD_SAVREPMUL Dangerous goods: Save replicated instances
+
+1079 BAPIs for General Cost Object/Cost Obj
+
+BAPI_COSTOBJECT_GETDETAIL Determine Details for a General Cost Object
+
+BAPI_COSTOBJECT_GETLIST Determine General Cost Objects for a Controlling Area
+
+1120 Business Object ConsDimension
+
+BAPI_CONSDIMENSION_GETLIST Display Dimensions
+
+1121 Business Object ConsSubitemCategory
+
+BAPI_CONSSUBITEMCATEGORY_LIST Display Subitem Categories
+
+BAPI_CONSSUBITEMCATEGORY_SITEM Display Subitems
+
+1122 Business Object ConsDocumentType
+
+BAPI_CONSDOCUMENTTYPE_GETADJ Display Document Types for the Entry
+
+BAPI_CONSDOCUMENTTYPE_GETLIST Display Document Types
+
+1137 Business Object 1137 BusProcStructureCO
+
+BAPI_BUSPROCSTRUCTURECO_CREATE BAPI for Creating Fixed Process Structures for 
+
+Business Processes
+
+1138 Business Object BUS1138 (Stat. Key Fig.)
+
+BAPI_KEYFIGURE_CREATEMULTIPLE Create One or More Statistical Key Figures
+
+BAPI_KEYFIGURE_GETDETAIL Detail Information for Statistical Key Figure on Key Date
+
+BAPI_KEYFIGURE_GETLIST List of Stat. Key Figures for Selection Criteria
+
+1139 CO Resources: Business Object
+
+BAPI_RESOURCECO_SAVE_REPLICA Replicate individual CO resources (ALE)
+
+1157 Function Module for BUS1157
+
+BAPI_EXPENDITUREPROGDEF_CHANGE Change Inv. Program Definition
+
+BAPI_EXPENDITUREPROGDEF_CREATE Create Inv. Program Definition
+
+BAPI_EXPENDITUREPROGDEF_EXCHK Check Existence of Program Definition
+
+BAPI_EXPENDITUREPROGDEF_GETDTL Display Detail List for Program Definition
+
+BAPI_EXPENDITUREPROGDEF_GTLIST Display Existing Program Definitions
+
+BAPI_EXPENDITUREPROGDEF_SAVER Method ‘SaveReplica’ for ExpenditureProgDef
+
+1158 Function Module for BUS1158
+
+BAPI_EXPENDITUREPROGTREE_CHG Change Program Sub-Tree
+
+BAPI_EXPENDITUREPROGTREE_CHVAL Change Budget/Plan Values on the Positions of a 
+
+Program Sub-Tree
+
+BAPI_EXPENDITUREPROGTREE_CREAT Create Program Sub-Tree
+
+BAPI_EXPENDITUREPROGTREE_DEL Delete Program Sub-Tree
+
+BAPI_EXPENDITUREPROGTREE_DLVAL Method ‘DeleteValues’ for ExpenditureProgTree
+
+BAPI_EXPENDITUREPROGTREE_EXCHK Check Program Sub-Tree
+
+BAPI_EXPENDITUREPROGTREE_GDVAL Determine Values for Program Sub-Tree
+
+BAPI_EXPENDITUREPROGTREE_GTDTL Call Information on Program Sub-Tree
+
+BAPI_EXPENDITUREPROGTREE_GTSTA Return System or User Status
+
+BAPI_EXPENDITUREPROGTREE_REASS Reassign Program Sub-Tree
+
+BAPI_EXPENDITUREPROGTREE_STSTA Change System or User Status of Positions of Program 
+
+Sub-Tree
+
+BAPI_EXPENDITUREPROGTREE_SVRP Method ‘SaveReplica’ for ExpenditureProgTree’
+
+BAPI_EXPENDITUREPROGTREE_SVRPV Method ‘SaveReplicaValues’ for ExpenditureProgTree
+
+1171 All Methods for PriceCatalog Object
+
+BAPI_PRICECATALOGUE_EXISTCHECK FM for ExistenceCheck method of BO PriceCatalogue
+
+BAPI_PRICECATALOGUE_GETDETAIL FM for GetDetail method of BO PriceCatalogue
+
+BAPI_PRICECATALOGUE_SAVREPLICA Store Price Catalog Instance
+
+2001 BAPIs project definition
+
+BAPI_PROJECTDEF_CREATE Create Project Definition
+
+BAPI_PROJECTDEF_EXISTENCECHECK Check whether a project definition exists
+
+BAPI_PROJECTDEF_GETDETAIL Read detailed information for the project definition
+
+BAPI_PROJECTDEF_GETLIST Returns a container of project definitions
+
+BAPI_PROJECTDEF_UPDATE Change Project Definition
+
+2002 BAPIs network
+
+BAPI_NETWORK_EXISTENCECHECK Check whether network exists
+
+BAPI_NETWORK_GETDETAIL Read detailed information for network (including all objects)
+
+BAPI_NETWORK_GETINFO Read detailed information for networks (including all objects)
+
+BAPI_NETWORK_GETLIST Returns a container of network numbers
+
+BAPI_NETWORK_MAINTAIN Edit networks (incl. all objects)
+
+2004 BAPI Planned Order Processing
+
+BAPI_PLANNEDORDER_CHANGE Change planned order
+
+BAPI_PLANNEDORDER_CREATE Create planned order
+
+BAPI_PLANNEDORDER_DELETE Delete planned order
+
+BAPI_PLANNEDORDER_EXIST_CHECK Planned order existence check
+
+BAPI_PLANNEDORDER_GET_DETAIL Get details for planned order
+
+BAPI_PLANNEDORDER_GET_DET_LIST Get detailed planned order list
+
+2027 Business Object 2027: Material Reval.
+
+BAPI_M_REVAL_CREATEPRICECHANGE BAPI: Material Revaluation - Generate Price Change
+
+BAPI_M_REVAL_GETDETAIL BAPI: Material Revaluation - Output Document
+
+2030 Business Object Inquiry
+
+BAPI_CUSTOMERINQUIRY_CHANGE Change Customer Inquiry
+
+BAPI_INQUIRY_CREATEFROMDATA Customer inquiry: Create customer inquiry
+
+BAPI_INQUIRY_CREATEFROMDATA2 Customer Inquiry: Create Customer Inquiry
+
+2031 Business Object Quotation
+
+BAPI_CUSTOMERQUOTATION_CHANGE Change Customer Quotation
+
+BAPI_QUOTATION_CREATEFROMDATA Customer quotation: Create customer quotation
+
+BAPI_QUOTATION_CREATEFROMDATA2 Customer Quotation: Create Customer Quotation
+
+2032 Business Object Sales Order
+
+BAPISDORDER_GETDETAILEDLIST Sales Order: List of All Order Data
+
+BAPI_ORDER_CHANGE_STATUS_GET Change status for order
+
+BAPI_SALESDOCU_CREATEFROMDATA Creating a Sales Document
+
+BAPI_SALESORDER_CHANGE Sales Order: Change Sales Order
+
+BAPI_SALESORDER_CREATEFROMDAT1 Sales Order: Create Sales Order
+
+BAPI_SALESORDER_CREATEFROMDAT2 Sales Order: Create Sales Order
+
+BAPI_SALESORDER_CREATEFROMDATA Create sales order, no more maintenance
+
+BAPI_SALESORDER_GETLIST Sales order: List of all orders for customer
+
+BAPI_SALESORDER_GETSTATUS Sales order: Display status
+
+BAPI_SALESORDER_SIMULATE Sales Order: Simulate Sales Order
+
+BAPI_XSI_GET_VTRK_G Tracking info
+
+2034 Business Object Customer Contract
+
+BAPI_CONTRACT_CREATEFROMDATA Create Customer Contract
+
+BAPI_CUSTOMERCONTRACT_CHANGE Change Customer Contract
+
+2044 BAPIs for Business Object Cost Estimate
+
+BAPI_COSTESTIMATE_GETDETAIL Determine detailed information for a cost estimate
+
+BAPI_COSTESTIMATE_GETEXPLOSION Determine BOM Explosion for a Cost Estimate
+
+BAPI_COSTESTIMATE_GETLIST Determine cost estimate lists
+
+BAPI_COSTESTIMATE_ITEMIZATION Determine itemization for a cost estimate
+
+2045 BAPIs for the insp. lot and subord. obj.
+
+BAPI_INSPCHAR_GETREQUIREMENTS Load Inspection Specifications for an Inspection Lot 
+
+Charac.
+
+BAPI_INSPCHAR_GETRESULT Load Inspection Results
+
+BAPI_INSPCHAR_SETRESULT Confirm Inspection Results
+
+BAPI_INSPLOT_GETDETAIL Load Detail Data and Usage Decision for Inspection Lot
+
+BAPI_INSPLOT_GETLIST Select Inspection Lots
+
+BAPI_INSPLOT_GETOPERATIONS Select Inspection Operations for Inspection Lots
+
+BAPI_INSPLOT_GETSTATUS Get Current Status Information for Inspection Lot
+
+BAPI_INSPLOT_SETUSAGEDECISION Automatic Usage Decision
+
+BAPI_INSPOPER_GETCHAR Select Inspection Characteristics
+
+BAPI_INSPOPER_GETLIST Select Inspection Operations for Inspection Lots
+
+BAPI_INSPPOINT_CHANGE Change Inspection Point
+
+BAPI_INSPPOINT_CREATEFROMDATA Create Inspection Point
+
+BAPI_INSPPOINT_GETLIST Select Inspection Points
+
+BAPI_INSPPOINT_GETREQUIREMENTS Load Inspection Specifications and Inspection Points
+
+2054 BAPIs work breakdown structure
+
+BAPI_FIELDNAME_EXT_GET Return External Field Names (for BAPI Error Messages)
+
+BAPI_PROJECT_GETINFO Read Detailed Information for Work Breakdown Structures
+
+BAPI_PROJECT_MAINTAIN Edit Project Including Networks
+
+BAPI_PROJECT_SAVEREPLICA Replicate Work Breakdown Structure (ALE)
+
+2073 BAPI profit center document
+
+BAPI_PCA_BELEG_DELETE Delete profit center documents (ALE)
+
+BAPI_PCA_BELEG_REVERSE Reversal of existing document line items (ALE)
+
+BAPI_PCA_BELEG_SAVEREPLICA Replicate PCA Line Items (ALE)
+
+BAPI_PCA_PLANBELEG_SAVEREPLICA Replicate EC-PCA Plan Line Items (ALE)
+
+2075 FM for business object “Internal orders”
+
+BAPI_INTERNALORDER_CREATE Create Internal Order From Transferred Data
+
+BAPI_INTERNALORDER_GETDETAIL Display master data, status, and valid business trans. 
+
+for internal order
+
+BAPI_INTERNALORDER_GETLIST Display list of internal orders according to various 
+
+criteria
+
+BAPI_INTERNALORDER_SAVEREPLICA Replicate individual internal order (ALE)
+
+2076 BAPIs for Cost Obj Hier/Cost Obj Node
+
+BAPI_COSTOBJNODE_GETDETAIL Determine Details for a Cost Object Node
+
+BAPI_COSTOBJNODE_GETHIERARCHY Determine Cost Object Hierarchy
+
+BAPI_COSTOBJNODE_GETLIST Determine Cost Object Nodes in a Controlling Area
+
+2078 BAPIs for quality notifications
+
+BAPI_QNOTIFICAT_CREATE Create Quality Notification
+
+BAPI_QNOTIFICAT_GETCATALPROFIL Determine Catalog Profile for Quality Notification
+
+BAPI_QNOTIFICAT_GETKEYFIGURES Determines Existing Quality Notifications
+
+BAPI_QNOTIFICAT_GETLISTFORCUST Select Quality Notifications for a Customer
+
+BAPI_QNOTIFICAT_GETMATLISTFCUS Select a Customer Material List for Quality 
+
+Notifications
+
+2085 Allocation table: BAPIs
+
+BAPI_MATALLOC_CONFIRMREQUEST Report requested quantities for items and delivery 
+
+phases (AllocTbl reply)
+
+BAPI_MATALLOC_GETDETAILEDLIST List of alloc tbls and items for a store
+
+2100 Business Objects Settlement (BAPI)
+
+BAPI_SETTLEMENTREQSLIST_CHANGE Agency Business: Change Settlement Request List BAPI
+
+BAPI_SETTLEMENTREQSLIST_CREATE Agency Business: Create Settlement Request List BAPI
+
+BAPI_SETTREQSLIST_GETLIST Agency Business: BAPI Determine Settlement Request List 
+
+Detailed Data
+
+BAPI_SETTREQSLIST_RELEASE Agency Business: BAPI Release Settlement Request List 
+
+Documents to FI
+
+BAPI_SINGLESETTREQS_CANCELMULT Agency Business: BAPI Cancel Single Settlement 
+
+Requests
+
+BAPI_SINGLESETTREQS_CHANGEMULT Agency Business: BAPI Change Single Settlement 
+
+Requests
+
+BAPI_SINGLESETTREQS_CREATEMULT Agency Business: Create Single Settlement Request 
+
+BAPI
+
+BAPI_SINGLESETTREQS_GETLIST Agency Business: BAPI Determine Singe Request Detailed 
+
+Data
+
+BAPI_SINGLESETTREQS_RELEASE Agency Business: BAPI Release Single Settlement Request 
+
+Documents to FI
+
+2106 BAPIs for object type BUS2106
+
+BAPI_SALESADDIREQ_CHG_STATUS Additionals: Updating the Status of Additional IDocs
+
+BAPI_SALESADDIREQ_GET_PUR_LIST Additionals Purchase Orders for an Additionals Vendor
+
+BAPI_SALESADDIREQ_REPLICATE Request Detailed Data on Additionals
+
+BAPI_SALESADDIREQ_STORE_REPLI Additionals Data for Material Carried in a Plant
+
+2116 Methods for BO prod.order confirmation
+
+BAPI_PRODORDCONF_CANCEL Cancel Production Order Confirmation
+
+BAPI_PRODORDCONF_CREATE_ACT Enter Activity Confirmation
+
+BAPI_PRODORDCONF_CREATE_HDR Enter Order Confirmations
+
+BAPI_PRODORDCONF_CREATE_TE Enter Time Event Confirmation
+
+BAPI_PRODORDCONF_CREATE_TT Enter Time Ticket Confirmation
+
+BAPI_PRODORDCONF_EXIST_CHK Existence Check for Confirming Production Order
+
+BAPI_PRODORDCONF_GETDETAIL Detailed Data for Production Order Confirmation
+
+BAPI_PRODORDCONF_GETLIST Confirmations List
+
+BAPI_PRODORDCONF_GET_HDR_PROP Propose Data for Order Confirmation
+
+BAPI_PRODORDCONF_GET_TE_PROP Propose Data for Time Event Confirmation
+
+BAPI_PRODORDCONF_GET_TT_PROP Propose Data for Time Ticket Confirmation
+
+BAPI_PRODORDCONF_PDC_UPLOAD_TE Transfer Time Event Confirmations from PDC System
+
+BAPI_PRODORDCONF_PDC_UPLOAD_TT Transfer Time Ticket Confirmations from PDC System
+
+2125 Business Objects Posting List (BAPI)
+
+BAPI_VENDTRIGCBDLIST_CHANGEMUL Agency Business: Change Posting Lists BAPI
+
+BAPI_VENDTRIGCBDLIST_CREATEMUL Agency Business: Generate Posting Lists BAPI
+
+BAPI_VENDTRIGCBDLIST_GETLIST Agency Business: BAPI Determine Posting List Detailed 
+
+Data
+
+BAPI_VENDTRIGCBDLIST_RELEASE Agency Business: BAPI Release Posting Lists Document to 
+
+FI
+
+2126 Business Objects Remuneration (BAPI)
+
+BAPI_REMUREQSLISTA_CREATEMULT Agency Business: BAPI Create Invoice Lists from Vendor 
+
+Billing Documents
+
+BAPI_REMUREQSLISTB_CREATEMULT Agency Business: BAPI Create Invoice Lists from 
+
+Payment Documents
+
+BAPI_REMUREQSLISTC_CREATEMULT Agency Business: BAPI Create Invoice Lists from 
+
+Posting Lists
+
+BAPI_REMUREQSLIST_CHANGEMULT Agency Business: Change Invoice List Documents BAPI
+
+BAPI_REMUREQSLIST_GETLIST Agency Business: BAPI Determine Detailed Data for Invoice 
+
+List Documents
+
+BAPI_REMUREQSLIST_RELEASE Agency Business: BAPI Release Invoice List Documents to FI
+
+BAPI_SINGLEREMUREQS_CANCELMULT Agency Business: Cancel Vendor Billing Documents BAPI
+
+BAPI_SINGLEREMUREQS_CHANGEMULT Agency Business: Change Vendor Billing Documents BAPI
+
+BAPI_SINGLEREMUREQS_CREATEMULT Agency Business: Generate Vendor Billing Documents 
+
+BAPI
+
+BAPI_SINGLEREMUREQS_GETLIST Agency Business: BAPI Determine Vendor Billing Document 
+
+Detailed Data
+
+BAPI_SINGLEREMUREQS_RELEASE Agency Business: BAPI Release Vendor Billing Documents 
+
+to FI
+
+2127 Methods for BO REM Backflush
+
+BAPI_REPMANCONF_CANCEL Reverse REM Backflush
+
+BAPI_REPMANCONF_CREATE_MTO Execute Backflush in Sales Order Scenario
+
+BAPI_REPMANCONF_CREATE_MTS Execute Backflush in Stock Scenario
+
+BAPI_REPMANCONF_CREATE_PLOT Execute Backflush in Production Lot Scenario
+
+BAPI_REPMANCONF_EXIST_CHK Existency Check for Backflush in Repetitive Manufacturing
+
+3006 Business Objekt General Ledger Account
+
+BAPI_GL_ACC_EXISTENCECHECK Check existence of G/L account
+
+BAPI_GL_ACC_GETBALANCE Closing balance of G/L account for chosen year
+
+BAPI_GL_ACC_GETCURRENTBALANCE Closing balance of G/L account for current year
+
+BAPI_GL_ACC_GETLIST List of G/L accounts for each company code
+
+BAPI_GL_ACC_GETPERIODBALANCES Posting period balances for each G/L account
+
+3006_HRO Business object G/L account
+
+BAPI_GL_ACC_GETDETAIL G/L account details
+
+3007 Customer account business object
+
+BAPI_AR_ACC_GETBALANCEDITEMS Customer account clearing transactions in a given time 
+
+period
+
+BAPI_AR_ACC_GETCURRENTBALANCE Closing balance of customer account in current fiscal 
+
+year
+
+BAPI_AR_ACC_GETKEYDATEBALANCE Customer account balance at a key date
+
+BAPI_AR_ACC_GETOPENITEMS Customer account open items at a key date
+
+BAPI_AR_ACC_GETPERIODBALANCES Posting period totals per customer account in current 
+
+fiscal year
+
+BAPI_AR_ACC_GETSTATEMENT Customer account statement for a given period
+
+3008 Vendor account business object
+
+BAPI_AP_ACC_GETBALANCEDITEMS Vendor Account Clearing Transactions in a given Period
+
+BAPI_AP_ACC_GETCURRENTBALANCE Vendor Account Closing Balance in Current Fiscal Year
+
+BAPI_AP_ACC_GETKEYDATEBALANCE Vendor Account Balance at Key Date
+
+BAPI_AP_ACC_GETOPENITEMS Vendor Account Open Items at a Key Date
+
+BAPI_AP_ACC_GETPERIODBALANCES Posting Period Balances per Vendor Account in Current 
+
+Fiscal Year
+
+BAPI_AP_ACC_GETSTATEMENT Vendor Account Statement for a given Period
+
+3027 Business Object Planned Ind. Requirement
+
+BAPI_REQUIREMENTS_CHANGE Planned independent requirement: Change planned independent 
+
+reqmt
+
+BAPI_REQUIREMENTS_CREATE Planned Independent Requirements: Create Planned 
+
+Independent Reqmts
+
+BAPI_REQUIREMENTS_GETDETAIL Planned Independent Requirements: Display Details for 
+
+Pland Indep. Reqmts
+
+BAPI_REQUIREMENTS_SIMULATE Planned Independent Requirements: Simulate 
+
+Creating/Changing PlndIndepReq.
+
+3032 Assortment list: BAPIs
+
+BAPI_ASSORTMENTLIST_GETGROUP Select Assortment List Groups
+
+BAPI_ASSORTMENTLIST_GETHEAD Select Assortment List Header
+
+BAPI_ASSORTMENTLIST_GETPOS Select Assortment List Items
+
+3033 Definition/Implementation BO BUS3033
+
+BAPI_CUSTMATINFO_GETDETAILM BAPI Public CustomerMaterialInfo getDetailMultiple()
+
+BAPI_CUSTMATINFO_GETLIST BAPI Public CustomerMaterialInfo getList()
+
+4499 Business Object: Bank Statement
+
+BAPI_ACCSTMT_CREATEFROMBALANCE Store account balance/check debit information
+
+BAPI_ACCSTMT_CREATEFROMLOCKBOX Create lockbox data
+
+BAPI_ACCSTMT_CREATEFROMPREVDAY Create Bank Statement/Day-End Statement
+
+BAPI_ACCSTMT_CREATEFROMSAMEDAY Create Bank Statement/Today’s Data
+
+6003 Sales and distribution area
+
+BAPI_SDAREA_EXIST SD Area: Existence Check
+
+BAPI_SDAREA_GET_LIST SD Area: Possible Entries
+
+6026 Costs and Activity Type Planning
+
+BAPI_COSTACTPLN_CHECKACTINPUT Activity Input Planning: Check
+
+BAPI_COSTACTPLN_CHECKACTOUTPUT Activity/Price Planning: Check
+
+BAPI_COSTACTPLN_CHECKKEYFIGURE Stat. Key Figure Planning: Check
+
+BAPI_COSTACTPLN_CHECKPRIMCOST Primary Cost Planning: Check
+
+BAPI_COSTACTPLN_POSTACTINPUT Activity Input Planning: Posting
+
+BAPI_COSTACTPLN_POSTACTOUTPUT Activity/Price Planning: Posting
+
+BAPI_COSTACTPLN_POSTKEYFIGURE Stat. Key Figure Planning: Postings
+
+BAPI_COSTACTPLN_POSTPRIMCOST Primary Cost Planning: Postings
+
+6031 BusObj 6031: PlanDataTransferCO
+
+BAPI_PDTRANSCO_CHECKACTINPUT Plan data transfer: Check activity input
+
+BAPI_PDTRANSCO_CHECKACTOUTPUT Plan data transfer: Check activity planning
+
+BAPI_PDTRANSCO_CHECKKEYFIGURE Plan data transfer: Check stat. key figures
+
+BAPI_PDTRANSCO_CHECKPRIMCOST Plan Data Transfer: Check Primary Costs
+
+BAPI_PDTRANSCO_GETSOURCEINFOS Information About Settings for Plan Data Source
+
+BAPI_PDTRANSCO_POSTACTINPUT Planning Data Transfer: Post Activity Input
+
+BAPI_PDTRANSCO_POSTACTOUTPUT Planning Data Transfer: Post Activity Planning
+
+BAPI_PDTRANSCO_POSTKEYFIGURE Transfer of Planning Data: Post Stat. Key Figures
+
+BAPI_PDTRANSCO_POSTPRIMCOST Transfer of Planning Data: Post Primary Costs
+
+6032 BAPI STORE ORDER
+
+BAPI_STOREORDER_CHANGE Change Documents (PR, PR, Delivery or Sales Order) From Store 
+
+Orders
+
+BAPI_STOREORDER_CREATE Creates Documents (PR, PO, Delivery or Sales order) From 
+
+Store Orders
+
+7004 Display Payroll Results
+
+BAPI_GET_PAYROLL_RESULT_LIST Directory of payroll results for one personnel number
+
+BAPI_GET_PAYSLIP Selected remuneration statement for a personnel number
+
+BAPI_GET_PAYSLIP_HTML Payroll form for employees in HTML format
+
+7023 Bapis for Business-Object BUS7023
+
+BAPI_EXTPAYROLL_INSERT_LEGACY Payroll Account Transfer
+
+BAPI_EXTPAYROLL_INSERT_OUT Payroll Result Update by a Third-Party Payroll Run
+
+ABSE Object Type “Absence”
+
+BAPI_ABSENCE_APPROVE Unlock absence
+
+BAPI_ABSENCE_CHANGE Change absence
+
+BAPI_ABSENCE_CREATE Create absence
+
+BAPI_ABSENCE_DELETE Delete absence
+
+BAPI_ABSENCE_GETDETAIL Read absence
+
+BAPI_ABSENCE_GETDETAILEDLIST Read instances with data
+
+BAPI_ABSENCE_GETLIST Read instances
+
+BAPI_ABSENCE_REQUEST Create locked absence
+
+BAPI_ABSENCE_SIMULATECREATION Simulation: Create absence
+
+ACC4 FI/CO: BAPIs for UPDATE
+
+BAPI_ACC_BILLING_CHECK Accounting: Check Billing Doc. (OAG: LOAD RECEIVABLE)
+
+BAPI_ACC_BILLING_POST Accounting: Post Billing Document (OAG: LOAD RECEIVABLE)
+
+BAPI_ACC_EMPLOYEE_EXP_CHECK Accounting: Check G/L Acct Assignment for HR Posting 
+
+(OAG: POST JOURNAL)
+
+BAPI_ACC_EMPLOYEE_EXP_POST Accounting: Post G/L Acct Assignment for HR Posting (OAG: 
+
+POST JOURNAL)
+
+BAPI_ACC_EMPLOYEE_PAY_CHECK Accounting: Check Vendor Acct Assignment for HR Posting 
+
+(OAG:LOAD PAYABLE)
+
+BAPI_ACC_EMPLOYEE_PAY_POST Accounting: Post Vendor Acct Assignment for HR Posting 
+
+(OAG: LOAD PAYABLE)
+
+BAPI_ACC_EMPLOYEE_REC_CHECK Accounting: Check Cust. Acct Assignmt for HR Posting 
+
+(OAG:LOAD RECEIVABLE)
+
+BAPI_ACC_EMPLOYEE_REC_POST Accounting: Post Cust. Acct Assigt for HR Posting (OAG: 
+
+LOAD RECEIVABLE)
+
+BAPI_ACC_GL_POSTING_CHECK Accounting: General G/L Account Posting
+
+BAPI_ACC_GL_POSTING_POST Accounting: General G/L Account Posting
+
+BAPI_ACC_GOODS_MOVEMENT_CHECK Accounting: Check Goods Movement (OAG: POST JOURNAL)
+
+BAPI_ACC_GOODS_MOVEMENT_POST Accounting: Post Goods Movement (OAG: POST JOURNAL)
+
+BAPI_ACC_INVOICE_RECEIPT_CHECK Accounting: Check Invoice Receipt (OAG: LOAD PAYABLE)
+
+BAPI_ACC_INVOICE_RECEIPT_POST Accounting: Post Invoice Receipt (OAG: LOAD PAYABLE)
+
+BAPI_ACC_PURCHASE_ORDER_CHECK Accounting: Check Purchase Order
+
+BAPI_ACC_PURCHASE_ORDER_POST Accounting: Post Purchase Order
+
+BAPI_ACC_PURCHASE_REQUI_CHECK Accounting: Check Purchase Requisition
+
+BAPI_ACC_PURCHASE_REQUI_POST Accounting: Post Purchase Requisition
+
+BAPI_ACC_SALES_ORDER_CHECK Accounting: Check Sales Order
+
+BAPI_ACC_SALES_ORDER_POST Accounting: Post Sales Order
+
+BAPI_ACC_SALES_QUOTA_CHECK Accounting: Check Customer Quotation
+
+BAPI_ACC_SALES_QUOTA_POST Accounting: Post Customer Quotation
+
+BAPI_ACC_TRAVEL_CHECK Accounting: Check Trip
+
+BAPI_ACC_TRAVEL_POST Accounting: Post Trip
+
+ACC5 FI/CO: BAPIs Asset Postings
+
+BAPI_ACC_ASSET_ACQ_SETT_CHECK ACC: Asset Acquisition - Synchronous Determination of 
+
+Capitalization Value
+
+BAPI_ACC_ASSET_ACQ_SETT_POST ACC: Asset Acquisition-Asynchronous Determination of 
+
+Capitalization Value
+
+BAPI_ACC_ASS_ACQUISITION_CHECK Accounting: Post Asset Transfer
+
+BAPI_ACC_ASS_INTRA_TRANS_CHECK Accounting: Post Asset Transfer
+
+BAPI_ACC_ASS_POSTCAP_CHECK Accounting: Post Asset Transfer
+
+BAPI_ACC_ASS_RETIREMENT_CHECK Accounting: Post Asset Transfer
+
+BAPI_ACC_ASS_TRANSFER_CHECK Accounting: Post Asset Transfer
+
+BAPI_ACC_ASS_TRANSFER_POST Accounting: Post Asset Transfer
+
+BAPI_ACC_ASS_TRANS_ACQ_CHECK Accounting: Check Acquisition from Transfer
+
+BAPI_ACC_ASS_TRANS_ACQ_POST Accounting: Post Acquisition from Transfer
+
+BAPI_ACC_ASS_TRANS_RET_CHECK Accounting: Post Asset Transfer
+
+BAPI_ACC_AUC_ACQUISITION_CHECK Accounting: Asset Acquisition from Settlement
+
+BAPI_ACC_AUC_ACQUISITION_POST Accounting: Asset Acquisition from Settlement
+
+ACC7 CO: Check and Substitution for HR
+
+BAPI_CODINGBLOCK_PRECHECK_HR Check Module: CO Account Assignments in Personnel 
+
+Settlement
+
+BAPI_FIXACCOUNT_GETLIST Read TKA30
+
+ACC7CORE CO: Check and Substitution for HR
+
+BAPI_COST_ELEM_FIXACCOUNT_GET Read Fixed Account Assignment for Company 
+
+Code/Business Area/Cost Element
+
+AEMM Additionals in integrated mat. maint.
+
+BAPI_ADDITIONAL_MAINTAINDATA Create and change additionals assignments (Retail)
+
+AIA_BAPI FMs for BAPIs
+
+BAPI_APPREQUEST_ADDVARIANT Add a Variant to an Appropriation Request
+
+BAPI_APPREQUEST_CHANGE Change an Appropriation Request
+
+BAPI_APPREQUEST_CHANGEVARIANT Change Appropriation Request Variant
+
+BAPI_APPREQUEST_CREATE Create Appropriation Request
+
+BAPI_APPREQUEST_DELETE Deletion of an Appropriation Request
+
+BAPI_APPREQUEST_GETDETAIL Display of an Appropriation Request
+
+BAPI_APPREQUEST_GETSTATUS Display Status of an Appropriation Request
+
+BAPI_APPREQUEST_REMOVEVARIANT Delete an Appropriation Request Variant
+
+BAPI_APPREQUEST_SETSTATUS Setting System and User Status of Appropriation Request
+
+BAPI_APPREQUEST_SETSTATUSVARNT Setting of User and System Status on Variants
+
+AMFA Fixed asset posting BAPIs
+
+BAPI_ASSET_ACQUISITION_CHECK Check asset acquisition
+
+BAPI_ASSET_ACQUISITION_POST Post asset acquisition
+
+BAPI_ASSET_POSTCAP_CHECK Check post-capitalization
+
+BAPI_ASSET_POSTCAP_POST Post post-capitalization
+
+BAPI_ASSET_RETIREMENT_CHECK Check asset retirement
+
+BAPI_ASSET_RETIREMENT_POST Post asset retirement
+
+APPL Business Object Applicant
+
+BAPI_APPLICANT_CHANGEPASSWORD Change applicant password
+
+BAPI_APPLICANT_CHECKEXISTENCE Check applicant’s existence
+
+BAPI_APPLICANT_CHECKPASSWORD Check applicant password
+
+BAPI_APPLICANT_CREATE Create applicant
+
+BAPI_APPLICANT_CREATE_PW_REG Create entry for applicant password
+
+BAPI_APPLICANT_DELETE_PW_REG Delete entry for applicant password
+
+BAPI_APPLICANT_DEQUEUE Unlock Applicant
+
+BAPI_APPLICANT_ENQUEUE Lock Applicant
+
+BAPI_APPLICANT_GETSTATUS Determine applicant status
+
+BAPI_APPLICANT_GET_PW_REG Read entry for applicant password
+
+BAPI_APPLICANT_INITPASSWORD Initialize applicant password
+
+APPLICATION Business Object Application
+
+BAPI_APPLICATION_CREATE Create Application
+
+BACV BAPI Conversion Routines
+
+BAPI_CONVERSION_EXT2INT Convert Data from External Format into Internal Format
+
+BAPI_CONVERSION_EXT2INT1 Convert Data from External Format into Internal Format
+
+BAPI_CONVERSION_INT2EXT Convert data from internal format into external format
+
+BAPI_CONVERSION_INT2EXT1 Convert data from Internal Format into External Format
+
+BAPICATS BAPIs for BUS 7024
+
+BAPI_CATIMESHEETMGR_CHANGE CATS: Change Data Records
+
+BAPI_CATIMESHEETMGR_DELETE CATS: Delete Data Records
+
+BAPI_CATIMESHEETMGR_INSERT CATS: Insert Data Records
+
+BAPICATSRECORD BAPIs for BUS TIMESHREC
+
+BAPI_CATIMESHEETRECORD_GETLIST Time Sheet: Data Record List
+
+BAPIEMPLOYEECATS BAPIs for BUS 7025
+
+BAPI_EECATIMESHEET_GETWORKLIST Time Sheet: Read Worklist
+
+BAPIS1068 BAPIs for retail promotions
+
+BAPI_PROMO_CHANGESITEPLANNING Change of Quantities and Prices from Plants In a 
+
+Promotion
+
+BAPI_PROMO_CONFIRMREQUEST Replies Containing Required Quantities of a Plant
+
+BAPI_PROMO_CREATE Create a Promotion
+
+BAPI_PROMO_GETANNOUNCEDLIST List of Promotions for a Plant
+
+BAPI_PROMO_GETSITEPLANNING Detailed Data for the Plants Involved in a Promotion
+
+BAPI_PROMO_GETSITEPLANNING1 Detailed Data for the Plants Involved in a Promotion
+
+BAPIS1073 BAPIs for Season Management
+
+BAPI_PRICEMARKDOWNPLAN_CREATE Create a markdown plan
+
+BAPT Transaction control for BAPIs
+
+BAPI_TRANSACTION_COMMIT Execute external Commit when using BAPIs
+
+BAPI_TRANSACTION_ROLLBACK Execute external Rollback when using BAPIs
+
+BARCODE Function module for object BARCODE
+
+BAPI_BARCODE_SENDLIST Function module for BAPI BARCODE.SendList
+
+BASB Service Master Record: BAPIs
+
+BAPI_SERVICE_GET_DETAIL Read Detailed Data for a Service Master Record
+
+BAPI_SERVICE_GET_LIST List Display for Service Master Records
+
+BASR Functions for BAPI Service Reports
+
+BAPI_MONITOR_CHECKDOCU Check that BAPI documentation is availablle
+
+BAPI_MONITOR_GETLIST Create BAPI List
+
+BATG BAPIs for Reading Documentation
+
+BAPI_APPLICATIONLOG_GETDETAIL Read Details of Entries in Application Log
+
+BAPI_FIELDHELP_GETDOCU Read input help for BAPI interface parameter
+
+BAPI_HYPERLINK_GETTEXT Read Hypertext Links of Documentation
+
+BAPI_INTERFACE_GETDOCU Read BAPI interface documentation
+
+BAPI_MESSAGE_GETDETAIL Read long text of error message
+
+BD02 ALE: customer model
+
+BAPI_ALE_MODEL_GET BAPI: read ALE distribution model
+
+BDBG Tool and templates for BAPI IDocs
+
+BAPI_IDOC_INPUT1 Inbound BAPI IDoc: Individual Processing
+
+BAPI_IDOC_INPUTP Inbound BAPI IDoc: Packet Processing
+
+BDMON ALE CCMS monitoring functions
+
+BAPI_IDOCAPPL_DISPLAY Call Report for IDoc Display
+
+BEACTIVITY Process modeling activity
+
+BAPI_ACTIVITY_COMPARE Test Module for Modeling
+
+BAPI_ACTIVITY_GETCOUPLING Get activity coupling events
+
+BAPI_ACTIVITY_GETDETAIL Read diagram
+
+BAPI_ACTIVITY_GETPOTCOUPLING Get potential coupling events between two activities
+
+BEANSWER Answer
+
+BAPI_ANSWER_READMULTIPLE Read answers
+
+BEBAC Application component
+
+BAPI_APPCOMP_READMULTIPLE Read application component ID
+
+BEDIA Process Modeling Diagram Module
+
+BAPI_PROCDIA_READMULTIPLE Read process diagram modules
+
+BAPI_PROCDIA_WRITEMULTIPLE Write process diagram modules
+
+BEDIAVAR Process Modeling Diagram Variant
+
+BAPI_DIAVAR_READMULTIPLE Read diagram variants
+
+BAPI_DIAVAR_WRITEMULTIPLE Write diagram variants
+
+BEEVENT Process modeling event
+
+BAPI_PROCEVENT_READMULTIPLE Read events
+
+BAPI_PROCEVENT_WRITEMULTIPLE Write events
+
+BEFILTER Hierarchy Filter
+
+BAPI_HIERFILT_READMULTIPLE Read hierarchy filter
+
+BAPI_HIERFILT_WRITEMULTIPLE Write hierarchy filter
+
+BEFUNCT Process modeling function
+
+BAPI_PROCFUNCT_READMULTIPLE Read functions
+
+BAPI_PROCFUNCT_WRITEMULTIPLE Write functions
+
+BEGEN General Methods
+
+BAPI_MODOBJ_DEQUEUE Unlock model object
+
+BAPI_OBJID_GETLIST Get new object IDs
+
+BEGROUP Obsolete
+
+BAPI_PROCGROUP_READMULTIPLE Read visualization group (obsolete)
+
+BAPI_PROCGROUP_WRITEMULTIPLE Write visualization groups (obsolete)
+
+BEPROC Process module
+
+BAPI_PROCCOMP_READMULTIPLE Read process modules
+
+BEPROCVAR Process Variant
+
+BAPI_PROCVAR_READMULTIPLE Read process variants
+
+BEPROJECT Customizing project
+
+BAPI_CUSPRO_DISPLAY Display customizing project
+
+BAPI_CUSPRO_WRITESCOPE Write project scope and enhancementsn
+
+BEQADB QADB Hierarchy
+
+BAPI_QADB_READ Read SAP Reference Structure for Q&Adb
+
+BEQUESTION Question
+
+BAPI_QUESTION_READMULTIPLE Read question
+
+BESTRUCT SAP Reference Structure (module)
+
+BAPI_HIERSTRUCT_READMULTIPLE Read hierarchy structures
+
+BAPI_HIERSTRUCT_WRITEMULTIPLE Write hierarchy structures
+
+BFCR BAPI Currency Conversion Tools
+
+BAPI_CURRENCY_CONV_TO_EXTERNAL Conversion of Currency Amounts into External Data 
+
+Format
+
+BAPI_CURRENCY_CONV_TO_EXTERN_9 Conversion of Currency Amounts into External Data 
+
+Format
+
+BAPI_CURRENCY_CONV_TO_INTERNAL Conversion of Currency Amounts into Internal Data 
+
+Format
+
+BAPI_CURRENCY_CONV_TO_INTERN_9 Conversion of Currency Amounts into Internal Data 
+
+Format
+
+BFHV BAPIs for the object type HelpValues
+
+BAPI_HELPVALUES_GET Determine Allowed Input Values (F4) for Fields in BAPI 
+
+Parameters
+
+BAPI_HELPVALUES_GET_SEARCHHELP Search Help for Possible Values of BAPI Parameters
+
+BPAY Basic pay object type
+
+BAPI_BASICPAYEVALUATEWAGETYPES Valuate Person-Specific Wage Types
+
+BAPI_BASICPAY_APPROVE Unlock basic pay
+
+BAPI_BASICPAY_CHANGE Change basic pay
+
+BAPI_BASICPAY_CREATE Create basic pay
+
+BAPI_BASICPAY_CREATESUCCESSOR Create subsequent basic pay record
+
+BAPI_BASICPAY_DELETE Delete Basic Pay
+
+BAPI_BASICPAY_EVALUATEWAGETYPS Create Basic Pay
+
+BAPI_BASICPAY_GETDETAIL Read basic pay
+
+BAPI_BASICPAY_GETLIST Read instances
+
+BAPI_BASICPAY_REQUEST Create locked basic pay record
+
+BAPI_BASICPAY_SIMULATECREATION Simulation: Create basic pay
+
+BAPI_WAGETYPE_EMPLOYEEGETLIST Read Wage Types
+
+BAPI_WAGETYPE_GETLIST Read Wage Types
+
+BUBA BAPIs for BOR Object BUS1006
+
+BAPI_BP_REFERENCE_CREATE Create BP/Logsys/GUID Reference Record in Target System
+
+BAPI_BUSINESS_PARTNER_CHANGE CBP: BAPI for Changing Business Partner
+
+BAPI_BUSINESS_PARTNER_CREATE CBP: BAPI for Creating Business Partner
+
+BAPI_BUSINESS_PARTNER_MODIFY CBP: BAPI for Modifying (Creating/Changing) Business 
+
+Partner
+
+BAPI_BUSINESS_PARTN_GET_DETAIL CBP: Business Partner Detailed Information
+
+BUS1001 BAPIs for the Business Object Material
+
+BAPI_MATERIAL_EXISTENCECHECK Check Existence of Material
+
+BAPI_MATERIAL_GETBATCHCERT Create Quality Certificate for Batch in Portable Document 
+
+Format (PDF)
+
+BAPI_MATERIAL_GETBATCHES Create Batch List for a Material
+
+BAPI_MATERIAL_GETCHARMERCHHIER Supply Characteristics of Retail Material for 
+
+Material Group Hierarchy
+
+BAPI_MATERIAL_GETINTNUMBER Assign New Internal Numbers for a Material Type
+
+BAPI_MATERIAL_GETINTNUMBERRET Assign New Internal Numbers for a Material Type for 
+
+Retail Materials
+
+BAPI_MATERIAL_GETLIST Supply List of Materials for Search Criteria Transferred
+
+BAPI_MATERIAL_GETVARNUMBERS Supply Material Numbers for New Variants of a Generic 
+
+Material
+
+BAPI_MATERIAL_GET_DETAIL Determine Details for a Material
+
+BAPI_STDMATERIAL_GETINTNUMBER Assign New Internal Numbers for a Material Type
+
+BUS1090 Business object currency
+
+BAPI_CURRENCY_GETDECIMALS Currency: Decimal places
+
+BAPI_CURRENCY_GETLIST Display All Currency Codes Existing in the SAP System
+
+BUS1093 BAPIs to BO exchange rate
+
+BAPI_EXCHANGERATE_CREATE Insert an entry in table of exchange rates
+
+BAPI_EXCHANGERATE_GETDETAIL Exchange rate stored for exch.rate type, currency pair, 
+
+value date
+
+BAPI_EXCHANGERATE_GETFACTORS Read exchange rate relationship for currency pair
+
+BAPI_EXCHANGERATE_SAVEREPLICA Replication of currency rates
+
+BAPI_EXCHRATE_CREATEMULTIPLE Insert one or more exchange rates in SAP tables
+
+BAPI_EXCHRATE_GETCURRENTRATES Output selected exchange rates and factors from the 
+
+SAP system
+
+BAPI_EXCHRATE_GETLISTRATETYPES List of exchange rate types used for exchange rates
+
+CLBP Class BAPIs
+
+BAPI_CLASS_ALLOC_GLOB_DEP BAPI: Assign Global Dependencies to Class
+
+BAPI_CLASS_CHANGE BAPI: Change Class
+
+BAPI_CLASS_CHARVALUE_DEL_DEP Class BAPI: Delete Local / Global Dependencies for 
+
+Characteristic Value
+
+BAPI_CLASS_CHARVALUE_GLOB_DEP Class BAPI: Assign Global Dependencies to 
+
+Characteristic Value
+
+BAPI_CLASS_CHARVALUE_LOCAL_DEP Class BAPI: Maintain Local Dependency for 
+
+Characteristic Value
+
+BAPI_CLASS_CHARVALUE_READ_ALLO Class BAPI: Read Dependencies for Characteristic 
+
+Value
+
+BAPI_CLASS_CHAR_ALLOC_GLOB_DEP Class BAPI: Global Dependencies for Characteristic
+
+BAPI_CLASS_CHAR_DELETE_DEP Class BAPI: Delete Global / Local Dependency for 
+
+Characteristic
+
+BAPI_CLASS_CHAR_LOCAL_DEP Class BAPI: Assign / Delete Local Dependency for 
+
+Characteristic
+
+BAPI_CLASS_CHAR_READ_ALLOC Class BAPI: Read Dependencies for Characteristic
+
+BAPI_CLASS_CREATE Create Class BAPI
+
+BAPI_CLASS_DELETE BAPI: Delete Class
+
+BAPI_CLASS_DELETE_DEP Class BAPI: Delete Global / Local Dependency
+
+BAPI_CLASS_EXISTENCECHECK Class BAPI: Check Existence
+
+BAPI_CLASS_GETDETAIL BAPI: Read Class Information
+
+BAPI_CLASS_GETLIST BAPI: Read Classes
+
+BAPI_CLASS_GETSTATUS Class BAPI: Status Information
+
+BAPI_CLASS_GET_CHARACTERISTICS Import Characteristics and Allowed Values for Class
+
+BAPI_CLASS_GET_CLASSIFICATIONS Read Values Assigned to Objects in Class
+
+BAPI_CLASS_MAINT_LOCAL_DEP Class BAPI: Assign / Delete Local Dependency
+
+BAPI_CLASS_READ BAPI: Read Class Information
+
+BAPI_CLASS_READ_ALLOC Class BAPI: Read Dependencies
+
+BAPI_CLASS_SELECT_OBJECTS Find Objects in Class
+
+CLBPA Classification BAPIs
+
+BAPI_OBJCL_CHANGE Classification BAPI: Change Assignment
+
+BAPI_OBJCL_CHANGE_KEY BAPI Classification: Change Attributes of an Assignment (Key)
+
+BAPI_OBJCL_CONCATENATEKEY Classification BAPI: Generate Concatenated Key
+
+BAPI_OBJCL_CONCATENATEKEY_KEY BAPI Classification: Create Concatenated Key (Key)
+
+BAPI_OBJCL_CREATE Classification BAPI: Create Assignment
+
+BAPI_OBJCL_CREATE_KEY BAPI Classification: Create Assignment (Key)
+
+BAPI_OBJCL_DELETE Classification BAPI: Delete Assignment
+
+BAPI_OBJCL_DELETE_KEY BAPI Classification: Delete Assignment (Key)
+
+BAPI_OBJCL_EXISTENCECHECK_KEY BAPI Classification: Existence Check for a 
+
+Classification (Key)
+
+BAPI_OBJCL_EXISTENCE_CHECK Classification BAPI: Check Existence of Classification
+
+BAPI_OBJCL_GETCLASSES Classification BAPI: Classes for Object
+
+BAPI_OBJCL_GETCLASSES_KEY BAPI Classification: Object Classes (Key)
+
+BAPI_OBJCL_GETDETAIL Classification BAPI: Read Classification Information on Object
+
+BAPI_OBJCL_GETDETAIL_KEY BAPI Classification: Read Classification Information (Key)
+
+BAPI_OBJCL_GETOBJECTS Classification BAPI: Find by Assignment
+
+BAPI_OBJCL_GETOBJECTS_KEY BAPI Classification: Find Assignment (Key)
+
+BAPI_OBJCL_GETSTATUS Classification BAPI: Classification Status of Object
+
+BAPI_OBJCL_GETSTATUS_KEY BAPI Classification: Classification Status of an Object 
+
+(Key)
+
+BAPI_OBJCL_GET_KEY_OF_OBJECT BAPI Classification: Object Key
+
+BAPI_OBJCL_GET_OBJECT_OF_KEY BAPI Classification: Key Object
+
+BAPI_OBJCL_SPLITKEY Classification BAPI: Decomposition of Concatenated Key
+
+BAPI_OBJCL_SPLITKEY_KEY Classification BAPI: Decomposition of Concatenated Key
+
+CLBPH Class Hierarchy BAPIs
+
+BAPI_HIERA_CHANGESUBCLASS Class Hierarchy BAPI: Change Assignment
+
+BAPI_HIERA_CHANGESUBTREE Class Hierarchy BAPI: Change Hierarchy (Top Down)
+
+BAPI_HIERA_CREATESUBCLASS Class Hierarchy BAPI: Create Assignment
+
+BAPI_HIERA_CREATESUBTREE Class Hierarchy BAPI: Create Hierarchy (Top Down)
+
+BAPI_HIERA_DELETESUBCLASS Class Hierarchy BAPI: Delete Assignment
+
+BAPI_HIERA_DELETESUBTREE Class Hierarchy BAPI: Delete Hierarchy (Top Down)
+
+BAPI_HIERA_EXISTENCESUBCLASS Class Hierarchy BAPI: Check Existence
+
+BAPI_HIERA_EXISTENCESUBTREE Class Hierarchy BAPI: Use Hierarchy to Check Existence
+
+BAPI_HIERA_GETDETAILSUBCLASS Class Hierarchy BAPI: Assignment Information
+
+BAPI_HIERA_GETSUBCLASSES Class Hierarchy BAPI: (Directly) Subordinate Classes
+
+BAPI_HIERA_GETSUBTREE Class Hierarchy BAPI: Read Hierarchy (Top Down)
+
+BAPI_HIERA_GETSUPERCLASSES Class Hierarchy BAPI: (Directly) Superior Classes
+
+BAPI_HIERA_GETSUPERTREE Class Hierarchy BAPI: Read Hierarchy (Bottom Up)
+
+COC5B BABIs: PI-PCS Interface, Proc. Messages
+
+BAPI_PROCESS_MESSAGE_CHK_EXIST Check process message existence
+
+BAPI_PROCESS_MESSAGE_CREATEMLT Create process messages
+
+BAPI_PROC_MESS_DEST_RECEIVE_PM BAPI: Receiving and Processing of Process Messages
+
+COC7B BABIs: PI-PCS Interface, Control Recipes
+
+BAPI_CONTROL_RECIPE_GET_LIST Read control recipe list
+
+BAPI_CONTROL_RECIPE_REQUEST Request and transfer control recipes
+
+COC8B BABIs: Service Functions
+
+BAPI_PROC_CHAR_GET_HELPVALUES Read allowed values for a process characteristic
+
+BAPI_PROC_CHAR_GET_LIST Read process characteristics, incl. detail data
+
+CTBP BAPIs for Characteristics
+
+BAPI_CHARACT_CHANGE BAPI for Characteristics - Change
+
+BAPI_CHARACT_CREATE BAPI for Characteristics - Create
+
+BAPI_CHARACT_DELETE BAPI for Characteristics - Delete
+
+BAPI_CHARACT_EXISTENCECHECK BAPI for Characteristics - Check Existence
+
+BAPI_CHARACT_GETDETAIL BAPI for Characteristics - Read Attributes
+
+CUW1 BAPI Configuration
+
+BAPI_CFGINST_CHARCS_ATTR_READ Displays the attributes of all or the specified chars 
+
+of the instance
+
+BAPI_CFGINST_CHARCS_READ Displays characteristics (according to search criteria) of 
+
+the instance
+
+BAPI_CFGINST_CHARCS_VALS_DEL Deletes one or more values of one or more 
+
+characteristics of an instance
+
+BAPI_CFGINST_CHARCS_VALS_READ Displays current values or allowed values of chars of 
+
+an instance
+
+BAPI_CFGINST_CHARCS_VALS_SET Sets one or more values for one or more characteristics 
+
+of an instance
+
+BAPI_CFGINST_INCOMPLETE_CHECK Checks whether data is missing for instance and 
+
+returns missing data
+
+BAPI_CFGINST_INCONSIST_CHECK Checks whether instance has inconsistencies and returns 
+
+inconsistencies
+
+BAPI_CFG_CREATE Starts a new configuration (root item, initializes configurator)
+
+BAPI_CFG_READ Returns external representation of configuration currently loaded
+
+CVBAPI BAPIs for document info records
+
+BAPI_DOCUMENT_CHANGE Change document
+
+BAPI_DOCUMENT_CHANGE2 Change document
+
+BAPI_DOCUMENT_CHECKIN Check in document
+
+BAPI_DOCUMENT_CHECKIN2 Check in document
+
+BAPI_DOCUMENT_CHECKIN_REPLACE Check in document (overwrite originals)
+
+BAPI_DOCUMENT_CHECKIN_REPLACE2 Check in document (overwrite originals)
+
+BAPI_DOCUMENT_CHECKOUTCANCEL Terminate checkout
+
+BAPI_DOCUMENT_CHECKOUTCANCEL2 Terminate checkout
+
+BAPI_DOCUMENT_CHECKOUTMODIFY Check out document for processing
+
+BAPI_DOCUMENT_CHECKOUTMODIFY2 Check out document for processing
+
+BAPI_DOCUMENT_CHECKOUTSET Set document to checked out
+
+BAPI_DOCUMENT_CHECKOUTSET2 Set document to checked out
+
+BAPI_DOCUMENT_CHECKOUTVIEW Check out document for display
+
+BAPI_DOCUMENT_CHECKOUTVIEW2 Check out document for display
+
+BAPI_DOCUMENT_CHECKOUTVIEWX Check out document for display
+
+BAPI_DOCUMENT_CREATE Create document
+
+BAPI_DOCUMENT_CREATE2 Create document
+
+BAPI_DOCUMENT_CREATEFROMSOURCE Create Document with Template Source
+
+BAPI_DOCUMENT_CREATEFROMSRC2 Create Document with Template Source
+
+BAPI_DOCUMENT_CREATENEWVERSION Create new document version
+
+BAPI_DOCUMENT_CREATENEWVRS2 Create new document version
+
+BAPI_DOCUMENT_DELETE Delete document or set deletion indicator
+
+BAPI_DOCUMENT_DEQUEUE Unlock document
+
+BAPI_DOCUMENT_ENQUEUE Lock document
+
+BAPI_DOCUMENT_EXISTENCECHECK Document Exists
+
+BAPI_DOCUMENT_GETACTVERSION Determine Valid Version of a Document
+
+BAPI_DOCUMENT_GETAPPLICATION Determine Data for an Application
+
+BAPI_DOCUMENT_GETDCDETAIL Determine Detail Data of Data Carrier
+
+BAPI_DOCUMENT_GETDCLIST Determine List of Data Carriers
+
+BAPI_DOCUMENT_GETDCLIST2 Determine List of Data Carriers
+
+BAPI_DOCUMENT_GETDETAIL Determine Detail Data for a Document
+
+BAPI_DOCUMENT_GETDETAIL2 Determine Detail Data for a Document
+
+BAPI_DOCUMENT_GETDOCTYPEDETAIL Determine Data for a Document Type
+
+BAPI_DOCUMENT_GETFRONTENDTYPE Determine Frontend Type for Computer
+
+BAPI_DOCUMENT_GETLATEST Deterimines Last Versions of Document Interface
+
+BAPI_DOCUMENT_GETLIST Find Document
+
+BAPI_DOCUMENT_GETLIST_OLD Find documents
+
+BAPI_DOCUMENT_GETOBJECTDOCS Determine Documents for an Object
+
+BAPI_DOCUMENT_GETOBJECTLINKS Read Object Links
+
+BAPI_DOCUMENT_GETSTATUS Read Document Status
+
+BAPI_DOCUMENT_GETSTATUSLIST Determine Status List for a Document Type
+
+BAPI_DOCUMENT_GETSTRUCTURE Determine document structure
+
+BAPI_DOCUMENT_GETTEXTS Read Long Texts for Documents
+
+BAPI_DOCUMENT_INIT Set general data for BAPIs
+
+BAPI_DOCUMENT_LOAD Load document data (data transfer Workbench)
+
+BAPI_DOCUMENT_SAVEOBJECTLINKS Save object link
+
+BAPI_DOCUMENT_SETFRONTENDTYPE Set frontend type for computer
+
+BAPI_DOCUMENT_SETSTATUS Set Document Status
+
+BAPI_MOVE_DOC_DRAD_TO_DRAD Compare object links (BAPI_DOC_DRAD -> DRAD)
+
+BAPI_MOVE_DOC_DRAD_TO_DRAD2 Compare object links (BAPI_DOC_DRAD -> DMS_DB_DRAD)
+
+BAPI_MOVE_DOC_DRAT_TO_DRAT Compare object links (BAPI_DOC_DRAD -> DRAD)
+
+BAPI_MOVE_DOC_DRAT_TO_DRAT2 Compare object links (BAPI_DOC_DRAT -> DMS_DRAT)
+
+BAPI_MOVE_DOC_TEXT_TO_TEXT Long texts
+
+BAPI_MOVE_DOC_TEXT_TO_TEXT2 Long texts
+
+DX_BAPILOAD Data Transfer Using BAPIs
+
+BAPI_IDOC_INPUT_FROM_FILE Inbound Function Module IDoc -> BAPI -> Application Via 
+
+MDTB
+
+ECOP Entity Copier
+
+BAPI_ECOP_ORG_UNITS RFC call from ECOP
+
+FTR_BUS2042 Financial Transaction: BUS2042
+
+BAPI_FTR_CHANGE Change Transaction
+
+BAPI_FTR_COUNTERCONFIRM Counterconfirm Transaction
+
+BAPI_FTR_CREATEFROMDATA Create Transaction
+
+BAPI_FTR_GETDETAIL Read Transaction Detailed Data
+
+BAPI_FTR_GETLIST Read Transaction List
+
+BAPI_FTR_REVERSE Reverse Transaction
+
+BAPI_FTR_ROLLOVER Roll Over Transaction
+
+BAPI_FTR_SETTLE Settle Transaction
+
+BAPI_FTR_TERMINATE Terminate Transaction
+
+GLEX Function modules for active EXCEL
+
+BAPI_DUMMY DUMMY
+
+BAPI_F4_FORMOL Selection of Line Layout Rules
+
+BAPI_F4_RACCT Selection of Item
+
+BAPI_F4_RCOMP Selection of Company
+
+BAPI_F4_RMVCT Selection of Transaction Type Group Texts
+
+BAPI_F4_RSUBD Selection of Subgroup
+
+BAPI_F4_RVERS Selection of Version
+
+BAPI_GET_TABLE_HEADER Get Column Headings for EXCEL_TAB* (Internal)
+
+BAPI_READ_INDX_GESPOS Read Gespos from INDX (internal)
+
+BAPI_READ_INDX_GESVBUND Read Imptab from INDX (internal)
+
+BAPI_READ_INDX_IMPTAB Read Imptab from MCDX (internal)
+
+BAPI_READ_INDX_POSDATEN Read Posdaten from INDX (internal)
+
+BAPI_REP_GLI70 List of Companies
+
+BAPI_SET_RACCT Item Set acc. to Line Layout
+
+BAPI_SET_RCOMP Company Set acc. to Subgroup
+
+BAPI_SET_RCOMP_SORT1 Company Set acc. to Sort Criterion 1
+
+BAPI_SET_RCOMP_SORT2 Company Set acc. to Sort Criterion 2
+
+BAPI_SET_RCOMP_SORT3 Company Set acc. to Sort Criterion 3
+
+BAPI_SET_RMVCT Transaction Type Groups-Set dissolved to TTy-Groups
+
+BAPI_TAB_T880 General Company Data acc. to T880
+
+BAPI_VALUE_GESPOS L1P(L1) L2P(L2) G1P(L3) G2P(L4) Company-FS Item Values
+
+BAPI_VALUE_GESVBUND L1B(L1) L2B(L2) G1B(L3) G2B(L4) Company-Items-TTy-Values
+
+BAPI_VALUE_IMPTAB A2P(L2) A3P(L3) Company Shares to FS Items
+
+BAPI_VALUE_IMPTAB_RMVCT A2B(L2) A3B(L3) Company Shares to TTy
+
+BAPI_VALUE_IMPTAB_RSUBD K1B(L1) K2B(L2) K3B(L3) Group-FS Items-TTy-Values
+
+BAPI_VALUE_PIVOT Group-Years-Company-FS Items-Values
+
+BAPI_VALUE_POSDATEN K1P(Ll) K2P(L2) K3P(L3) Group FS Items Values
+
+HRBEN00BENADJREAS Function group for object BENADJREAS
+
+BAPI_BEN_BENADJREAS_CALC_ENDDA Determination of the (new) end date of an existing 
+
+adjustment reason
+
+BAPI_BEN_BENADJREAS_DELIMIT Delimitation of adjustment reason
+
+BAPI_BEN_BENADJREAS_GET_LIST Define adjustment reasons that are currently valid for 
+
+an employee
+
+HRBEN00BUS3029 Function Group for Business Object 3029
+
+BAPI_BEN_BUS3029_CHECK_SELECT Consistency Check
+
+BAPI_BEN_BUS3029_CREATE_PLANS Enroll employee
+
+BAPI_BEN_BUS3029_DELETE_PLANS Cancel EE enrollment
+
+BAPI_BEN_BUS3029_GET_COREQ Determine corequisite plans
+
+BAPI_BEN_BUS3029_GET_EVT_LIST Determine adjustment reasons that are currently valid 
+
+for an employee
+
+BAPI_BEN_BUS3029_GET_OFFER Define benefits offer
+
+BAPI_BEN_BUS3029_GET_OPEN_PERI Check if open enrollment period exists and period is 
+
+indicated
+
+BAPI_BEN_BUS3029_GET_PARTICIP Benefit participation of an employee
+
+HRBEN00BUS302901 Function Group for Object BUS302901
+
+BAPI_BEN_BUS302901_GET_DEP Health plan dependents
+
+BAPI_BEN_BUS302901_GET_POS_DEP Possible health plan dependents
+
+HRBEN00BUS302902 Function group for object BUS302902
+
+BAPI_BEN_BUS302902_GET_BEN Beneficiary for insurance
+
+BAPI_BEN_BUS302902_GET_POS_BEN Possible beneficiaries for insurance
+
+HRBEN00BUS302903 Function group for object BUS302903
+
+BAPI_BEN_BUS302903_GET_BEN Beneficiaries for savings plan
+
+BAPI_BEN_BUS302903_GET_INV Investments for savings plan
+
+BAPI_BEN_BUS302903_GET_POS_BEN Possible beneficiaries for savings plans
+
+BAPI_BEN_BUS302903_GET_POS_INV Possible investments for savings plan
+
+HRBEN00BUS302906 Function group for object BUS302906
+
+BAPI_BEN_BUS302906_GET_BEN Beneficiaries for miscellaneous plans
+
+BAPI_BEN_BUS302906_GET_DEP Health plan dependents
+
+BAPI_BEN_BUS302906_GET_INV Investments for miscellaneous plans
+
+BAPI_BEN_BUS302906_GET_POS_BEN Possible beneficiaries for misc. plans
+
+BAPI_BEN_BUS302906_GET_POS_DEP Possible dependents for miscellaneous plans
+
+BAPI_BEN_BUS302906_GET_POS_INV Possible investments for miscellaneous plans
+
+HRBEN00BUS302907 Function group for object BUS302907
+
+BAPI_BEN_BUS302907_GET_BEN Beneficiaries for stock purchase plans
+
+BAPI_BEN_BUS302907_GET_POS_BEN Possible beneficiaries for stock purchase plans
+
+HRBEN00GENBENINFO Function group for object GENBENINFO
+
+BAPI_BEN_GENBENINFO_GET_OPENP Check if open enrollment period exists and period is 
+
+indicated
+
+HRIL Incentive Wages: Integration w/Logistics
+
+BAPI_CONFIRMATION_INPUT BAPI: Transfer confirmations to Time Management/Incentive 
+
+Wages
+
+HROUT00BP HR: Payroll Outsourcing BAPI’s
+
+BAPI_OUTEMPLOYEE_GETLIST List of employees in a payroll area
+
+HRPT Transfer to accounting: ‘Translate’
+
+BAPI_PAYACCDOC_DISPLAY_AWKEY Display posting document (from AC)
+
+HRRW HR-CA: Posting and CHECK BAPIs
+
+BAPI_TRVACCDOC_DISPLAY_AWKEY Display Trip Source Document (From RW)
+
+HRTIM00ABSATTEXT External interface for 2001/2002
+
+BAPI_PTMGREXTATTABS_CHECK BAPI: Checks External Attendance/Absence (w/o Account 
+
+Assignment)
+
+BAPI_PTMGREXTATTABS_CHECKCOLLI Collision check
+
+BAPI_PTMGREXTATTABS_CHECKQUOTA Simulates Quota Deduction
+
+BAPI_PTMGREXTATTABS_CHECKWACT BAPI: Checks Attendance/Absence (with Activity 
+
+Allocation)
+
+BAPI_PTMGREXTATTABS_CHECKWCOST BAPI: Checks Attendance/Absence (with Cost 
+
+Assignment)
+
+BAPI_PTMGREXTATTABS_INSERT BAPI: Inserts External Abs./Atts. in Interface Table (w/o 
+
+Acct Assignment)
+
+BAPI_PTMGREXTATTABS_INSERTWACT BAPI: Inserts External Abs./Atts. in Interface Table 
+
+(Activity Allocation)
+
+BAPI_PTMGREXTATTABS_INSWCOST BAPI Ext. Att./Absence: Insert in IFT (Acct Assgnmnt)
+
+HRTIM00ALP Different Payment
+
+BAPI_EETIMEVALSPEC_CHECK BAPI: Checks Different Payment
+
+BAPI_EETIMEVALSPEC_CHECKBONUS BAPI: Checks Bonus
+
+BAPI_EETIMEVALSPEC_CHECKCURR BAPI: Checks Currency
+
+BAPI_EETIMEVALSPEC_CHECKGRLEV BAPI: Checks Payscale Group/Level
+
+BAPI_EETIMEVALSPEC_CHECKPOS BAPI: Checks Item
+
+BAPI_EETIMEVALSPEC_GETCURR BAPI: Determines Currency
+
+BAPI_EETIMEVALSPEC_GETVALGRLEV BAPI: Checks Payscale Group/Level
+
+HRTIM00BAPIABSATT BAPIs attendances/absences
+
+BAPI_EMPATTABS_GETDETAIL BAPI: Orginal and Derived Data from Attendances/Absences
+
+BAPI_EMPATTABS_GETLIST BAPI: List of Attendances/Absences for Online Interface
+
+BAPI_PTMGRATTABS_MNGCHANGE Change Attendances/Absences
+
+BAPI_PTMGRATTABS_MNGCREATION BAPI: Creates Attendances/Absences
+
+BAPI_PTMGRATTABS_MNGDELETE Delete Attendances/Absences
+
+BAPI_PTMGRATTABS_MNGFROMWF Create/Change/Delete Attendances/Absences from Workflow
+
+HRTIM00BAPIPTWS HR-TIM: Work Schedule, Time Data
+
+BAPI_TIMEAVAILSCHEDULE_BUILD Generate List of Employee Availability
+
+HRTIM00BUS7013 BUS7013 PTimOverview
+
+BAPI_PTIMEOVERVIEW_DELREPLICA Delete employees’ distributed time overviews
+
+BAPI_PTIMEOVERVIEW_GET BAPI 7013
+
+BAPI_PTIMEOVERVIEW_REPLICATE Trigger Distribution of Employee Time Overviews
+
+BAPI_PTIMEOVERVIEW_SAVEREPLICA Insert/Delete employee time overviews
+
+HRTIM00REMINFO Employee Remuneration Info
+
+BAPI_PTMGREXTREMSPEC_CHECK Check External Employee Remuneration Info (w/o Account 
+
+Assignment)
+
+BAPI_PTMGREXTREMSPEC_CHECKWACT Check External Employee Remuneration Info (with 
+
+Activity Allocation)
+
+BAPI_PTMGREXTREMSPEC_CHECKWCOS Check External Employee Remuneration Info (with Cost 
+
+Assignment)
+
+BAPI_PTMGREXTREMSPEC_INSERT Inserts External EE Remuneraion Info in Table (w/o 
+
+Account Assignment)
+
+BAPI_PTMGREXTREMSPEC_INSWACT Insert External EE Remuneration Info in Table (with 
+
+Activity Allocation)
+
+BAPI_PTMGREXTREMSPEC_INSWCOST Inserts External EE Remuneration Info in Table (with 
+
+Cost Assignment)
+
+HRTL HR TRV: FM Interfaces PAY
+
+BAPI_PAYROLLTRAVELEXPNSESPOST BAPI Transfer of trip costs results to payroll
+
+HRTR HR TRIP:Interface to Trip Costs
+
+BAPI_TRIP_APPROVE Approve trip
+
+BAPI_TRIP_CANCEL Cancel trip
+
+BAPI_TRIP_CHANGE_STATUS Change status of trip
+
+BAPI_TRIP_CHECK_STATUS Establish status of trip
+
+BAPI_TRIP_COLLECT_MILEAGE Determination of employee trip segments
+
+BAPI_TRIP_CREATE_FROM_DATA Create EmployeeTrip with CallTransaction on PR01
+
+BAPI_TRIP_DELETE Delete Trip
+
+BAPI_TRIP_EXISTENCECHECK ExistenceCheck object: EmployeeTrip (BAPI interface)
+
+BAPI_TRIP_GET_DETAILS Print detail tables for trip (receipt entry)
+
+BAPI_TRIP_GET_FORM Trip form as internal table / Display form
+
+BAPI_TRIP_GET_FORM_HTML Ouput of Travel Expense Form as HTML Table
+
+BAPI_TRIP_GET_FORM_HTML_2 Ouput of Travel Expense Form as HTML Table
+
+BAPI_TRIP_GET_OPTIONS Import personal data and travel expense tables
+
+BAPI_TRIP_REPORT_CREATE Create simple weekly report (PR04)
+
+BAPI_TRIP_REPORT_GET_DATA Weekly report detail (Output of tables)
+
+BAPI_TRIP_REPORT_INIT Tables Needed for REPORT_CREATE (Local Workspace)
+
+BAPI_TRIP_SET_ON_HOLD Set trip status to “on hold”
+
+HRW0 Internet Services (Who’s Who)
+
+BAPI_EMPLOYEE_GETLIST Find Employees and Their Information on Basis of Search 
+
+Criteria
+
+HU_BASIC_BAPIS Basic BAPIs for HUs
+
+BAPI_HU_HUS_READ Read Handling Units from the Database
+
+IF0002 Interface for Company Code BUS0002
+
+BAPI_IF_COMPANYCODE_GETDETAIL Company code details
+
+IF1037SR Partner sales activity - Receiver
+
+BAPI_IFBUS1037SR_SAVEREPLICAM BAPI Business Partner Sales Activity Receiver
+
+IFCIBD02 PDC Interface Communication Channel 2
+
+BAPI_RCVPRODCF_REQUEST_CONF Send upload request to PDC system
+
+BAPI_RCVPRORDCF_RECEIVEPRODORD Send production orders to PDC system
+
+BAPI_RCVPRORDCF_RECEIVEWORKC Send work centers to PDC system
+
+IQS6 SM notifications BAPIs
+
+BAPI_SERVNOT_ADD_DATA Added Items, Causes, Activities, Tasks, Partners of the 
+
+service notif.
+
+BAPI_SERVNOT_CHANGEUSRSTAT Change the user status of a service notification
+
+BAPI_SERVNOT_CLOSE Complete service notification
+
+BAPI_SERVNOT_CREATE Create service notification
+
+BAPI_SERVNOT_DEL_DATA Delete Items, Causes, Activities, Tasks, Partners of the 
+
+service notif.
+
+BAPI_SERVNOT_GET_DETAIL Get details about a service notification
+
+BAPI_SERVNOT_MODIFY_DATA Modify a service notification or associated subdata
+
+BAPI_SERVNOT_POSTPONE Postpone service notification
+
+BAPI_SERVNOT_PUTINPROGRESS Put in process a service notification
+
+BAPI_SERVNOT_SAVE Save service notification
+
+IQS7 SM Tasks BAPIs
+
+BAPI_SERVNOT_COMPLETE_TASK Complete Notification Task
+
+BAPI_SERVNOT_RELEASE_TASK Release Notification Task
+
+BAPI_SERVNOT_SUCCESSFUL_TASK Release Notification Task
+
+ISBA Solution Database BAPIs
+
+BAPI_SOLUTION_GETDETAIL Get details about solution
+
+IWWW BAPIs for Eqpt. + Service Notifications
+
+BAPI_EQMT_CREATE Create equipment
+
+BAPI_EQMT_DETAIL Read details for equipment
+
+BAPI_EQMT_DISMANTLEFL Dismantle equipment at functional location
+
+BAPI_EQMT_DISMANTLEHR Dismantle equipment from equipment hierarchy
+
+BAPI_EQMT_GETCATALOGPROFIL Determine catalog profile for equipment
+
+BAPI_EQMT_GETLISTFORCUSTOMER Select customer equipment
+
+BAPI_EQMT_INSTALLFL Install equipment at functional location
+
+BAPI_EQMT_INSTALLHR Install equipment in equipment hierarchy
+
+BAPI_EQMT_MODIFY Change equipment
+
+BAPI_SERVICENOTIFICAT_CREATE Create service notification
+
+BAPI_SERVICENOTIFICAT_GETLIST Select service notifications according to customer or 
+
+contact person
+
+J1BU General Utilities
+
+BAPI_BRANCH_GETDETAIL Read Branch Data - for HR Use Only
+
+BAPI_BRANCH_GETLIST Read Branch List - for HR Use Only
+
+K40C CO Actual Postings, Manual
+
+BAPI_ACC_ACTIVITY_ALLOC_CHECK Accounting: Check Activity Allocation
+
+BAPI_ACC_ACTIVITY_ALLOC_POST Accounting: Post Activity Allocation
+
+BAPI_ACC_ACT_POSTINGS_REVERSE Accounting: Reverse CO Documents - Manual Actual 
+
+Postings
+
+BAPI_ACC_MANUAL_ALLOC_CHECK Accounting: Check Manual Cost Allocation
+
+BAPI_ACC_MANUAL_ALLOC_POST Accounting: Post Manual Cost Allocation
+
+BAPI_ACC_PRIMARY_COSTS_CHECK Accounting: Check Primary Costs
+
+BAPI_ACC_PRIMARY_COSTS_POST Accounting: Post Primary Costs
+
+BAPI_ACC_REVENUES_CHECK Accounting: Check Revenues
+
+BAPI_ACC_REVENUES_POST Accounting: Post Revenues
+
+BAPI_ACC_SENDER_ACTIVITY_CHECK Accounting: Check Sender Activities
+
+BAPI_ACC_SENDER_ACTIVITY_POST Accounting: Post Sender Activities
+
+BAPI_ACC_STAT_KEY_FIG_CHECK Accounting: Check Statistical Key Figures
+
+BAPI_ACC_STAT_KEY_FIG_POST Accounting: Post Statistical Key Figures
+
+BAPI_CO_DOC_GET_ACT_POSTINGS Read CO Documents: Manual Actual Postings
+
+KACG Coding Block: FI/LO Part of KACB
+
+BAPI_ACCSERV_CHECKACCASSIGNMT BAPI: Object BUS6001 AccountingServices, Method 
+
+CheckAccountAssignment
+
+KEBAPI0017 BAPI CO-PA Operating Concern
+
+BAPI_OPCONCERN_GETCHARACTS BAPI CO-PA: Get Characteristics for Operating Concern
+
+BAPI_OPCONCERN_GETDETAIL BAPI Operating Concern GetDetail
+
+BAPI_OPCONCERN_GETLIST BAPI Operating Concern: Get All (F4)
+
+BAPI_OPCONCERN_GETVALUEFIELDS BAPI Operating Concern Value Fields
+
+KEBAPI1161 BAPI CO-PA Characteristic
+
+BAPI_COPACHARACT_GETDETAIL BAPI CO-PA Characteristic GetDetail
+
+BAPI_COPACHARACT_GETHIERARCH BAPI CO-PA Characteristic: Get Hierarchies
+
+BAPI_COPACHARACT_GETVALUES BAPI CO-PA Characteristic: Get Master Data
+
+KEBAPI1162 BAPI CO-PA User-Defined Characteristic
+
+BAPI_COPACHARUDEF_ADDVALUES BAPI CO-PA User-Defined Characteristic : Add Master Data
+
+BAPI_COPACHARUDEF_REMOVEALLVAL BAPI CO-PA User-Defined Characteristic: Delete All 
+
+Master Data
+
+BAPI_COPACHARUDEF_REMOVEVALUES BAPI CO-PA User-Defined Characteristic: Delete Master 
+
+Data
+
+KEBAPI1164 BAPI CO-PA Hierarchy
+
+BAPI_COPAHIERARCHY_GETDETAIL Hierarchy GetDetail
+
+BAPI_COPAHIERARCHY_GETTREE Hierarchy GetValueTree
+
+KEBAPI1165 BAPI CO-PA Hierarchy: User-Defined
+
+BAPI1164_COPAHIERUDEF_SETTREE CO-PA Hierarhy User-Defined Set Tree
+
+KE_BAPI_COPAPLANNING BAPIs for CO-PA Planning Data
+
+BAPI_COPAPLANNING_GETDATA Read CO-PA Planning Data
+
+BAPI_COPAPLANNING_POSTDATA Write CO-PA Planning data
+
+KE_BAPI_COPAQUERY Modules for BOR Object COPAQuery
+
+BAPI_COPAQUERY_GETACC_ACTDATA BAPI COPAQuery.GetAccountBasedActualData
+
+BAPI_COPAQUERY_GETACC_PLANDATA BAPI COPAQuery.GetAccountBasedPlannningData
+
+BAPI_COPAQUERY_GETCOST_ACTDATA BAPI COPAQuery.GetCostingBasedActualData
+
+BAPI_COPAQUERY_GETCOST_PLANDAT BAPI COPAQuery.GetCostingBasedPlanningData
+
+BAPI_OPCONCERN_GET_META_DATA Do Not Use!
+
+KGR2 External Access to CO Hierarchies
+
+BAPI_ACTIVITYTYPEGRP_CREATE Object BUS1115 (Activity type group) - Method Create
+
+BAPI_ACTIVITYTYPEGRP_GETDETAIL Object BUS1115 (Activity type group) - Method 
+
+GetDetail
+
+BAPI_ACTIVITYTYPEGRP_GETLIST Object BUS1115 (Activity type group) - Method GetList
+
+BAPI_BUSPROCESSCOGRP_ADDNODE Object BUS1112 (Business process group) - Method 
+
+AddNode
+
+BAPI_BUSPROCESSCOGRP_CREATE Object BUS1114 (Business process group) - Method Create
+
+BAPI_BUSPROCESSCOGRP_GETDETAIL Object BUS1114 (Business process group) - Method 
+
+GetDetail
+
+BAPI_BUSPROCESSCOGRP_GETLIST Object BUS1114 (Business process group) - Method 
+
+GetList
+
+BAPI_COSTCENTERGROUP_ADDNODE Object BUS1112 (Cost center group) - Method AddNode
+
+BAPI_COSTCENTERGROUP_CREATE Object BUS1112 (Cost center group) - Method Create
+
+BAPI_COSTCENTERGROUP_GETDETAIL Object BUS1112 (Cost center group) - Method GetDetail
+
+BAPI_COSTCENTERGROUP_GETLIST Object BUS1112 (Cost center group) - Method GetList
+
+BAPI_COSTELEMENTGRP_CREATE Object BUS1113 (Cost element group) - Method Create
+
+BAPI_COSTELEMENTGRP_GETDETAIL Object BUS1113 (Cost element group) - Method GetDetail
+
+BAPI_COSTELEMENTGRP_GETLIST Object BUS1113 (Cost element group) - Method GetList
+
+KPLB BAPIs: Plan data interface
+
+BAPI_ACT_INPUT_CHECK_AND_POST Activity Type Planning/Price Planning: Formal 
+
+Parameter Check
+
+BAPI_ACT_PRICE_CHECK_AND_POST Activity Type Planning/Price Planning: Formal 
+
+Parameter Check
+
+BAPI_KEY_FIGURE_CHECK_AND_POST Statistical Key Figures Planning: Formal Parameter 
+
+Check
+
+BAPI_PRIM_COST_CHECK_AND_POST Primary Costs: Formal Parameter Check
+
+KRHR HR Interface to Bus. Place/Section Code
+
+BAPI_BPLACE_GETDETAIL Read Business Place Data - for HR Use Only
+
+BAPI_BPLACE_GETLIST Read Business Place List - for HR Use Only
+
+BAPI_SECCODE_GETDETAIL Read Section Code Data - for HR Use Only
+
+BAPI_SECCODE_GETLIST Read Section Code Place List - for HR Use Only
+
+LC01 Customer/Vendor Master: BAPIs
+
+BAPI_BUSPARTNEREMPLOYE_GETLIST Read contact persons and addresses (access via 
+
+specified range)
+
+BAPI_CUSTOMER_CHECKPASSWORD1 Check customer password
+
+BAPI_CUSTOMER_CREATE Create Customer Master Online
+
+BAPI_CUSTOMER_DELETE Delete Customer Master Online
+
+BAPI_CUSTOMER_DISPLAY Display Customer Master Online
+
+BAPI_CUSTOMER_EDIT Change Customer Master Online
+
+BAPI_CUSTOMER_EXISTENCECHECK Check Customer Existence
+
+BAPI_CUSTOMER_FIND Customer Matchcode
+
+BAPI_CUSTOMER_GETCONTACTLIST Read contact persons from customers
+
+BAPI_CUSTOMER_GETDETAIL2 Customer Detail Information
+
+BAPI_CUSTOMER_GETINTNUMBER Provides internal customer numbers
+
+BAPI_CUSTOMER_GETLIST Reads customers and addresses
+
+BAPI_PARTNEREMPLOYEE_CREATE Create Contact Person Online
+
+BAPI_PARTNEREMPLOYEE_DISPLAY Display Contact Person Online
+
+BAPI_PARTNEREMPLOYEE_EDIT Display Contact Person Online
+
+BAPI_PARTNEREMPLOYEE_GETINTNUM Supplies new internal contact person numbers
+
+BAPI_VENDOR_CHANGEPASSWORD Change Vendor Password
+
+BAPI_VENDOR_CHECKPASSWORD Check Vendor Password
+
+BAPI_VENDOR_CREATE Create Vendor Master Online
+
+BAPI_VENDOR_CREATEPASSWORD Create entry for vendor password
+
+BAPI_VENDOR_DELETE Set Deletion Indicator Online for Vendor
+
+BAPI_VENDOR_DELETEPASSWORD Delete entry for vendor password
+
+BAPI_VENDOR_DISPLAY Display Vendor Online
+
+BAPI_VENDOR_EDIT Change Vendor Master Online
+
+BAPI_VENDOR_EXISTENCECHECK Check existence
+
+BAPI_VENDOR_FIND Vendor Matchcode
+
+BAPI_VENDOR_GETDETAIL Vendor Detail Information
+
+BAPI_VENDOR_GETINTNUMBER Supplies new internal vendor numbers
+
+BAPI_VENDOR_GETPASSWORD Read the Entry for the Vendor Password
+
+BAPI_VENDOR_INITPASSWORD Initialize Vendor Password
+
+MB_BUS2017 Function group for BAPIs goods movement
+
+BAPI_GOODSMVT_CANCEL Reverse goods movements with MB_CANCEL_GOODS_MOVEMENT
+
+BAPI_GOODSMVT_CREATE Post Goods Movements With MB_CREATE_GOODS_MOVEMENT
+
+BAPI_GOODSMVT_GETDETAIL Display details for material document
+
+BAPI_GOODSMVT_GETITEMS Display detailed list of material documents
+
+MB_BUS2028 Function group for BAPIs for phys. inv.
+
+BAPI_MATPHYSINV_CHANGECOUNT Change count for particular items of a phys. inv. doc.
+
+BAPI_MATPHYSINV_COUNT Enter count for particular items of a phys. inv. doc.
+
+BAPI_MATPHYSINV_CREATE Create Physical Inventory Document
+
+BAPI_MATPHYSINV_CREATE_MULT Create Physical Inventory Document
+
+BAPI_MATPHYSINV_GETDETAIL Read items for a physical inventory document
+
+BAPI_MATPHYSINV_GETITEMS Read list of physical inventory documents with items
+
+BAPI_MATPHYSINV_GETLIST Read list of phys. inv. documents
+
+BAPI_MATPHYSINV_POSTDIFF Post differences for certain items in a phys. inv. document
+
+MCOB BAPIs for OIW
+
+BAPI_OIW_GET_CATALOG BAPI: Read Catalog with OIW Metadata
+
+BAPI_OIW_GET_DATA BAPI: Read OIW Data
+
+MCPD DRP interface
+
+BAPI_QUOTA_ARRANGEMENT_GETLIST Get quota arrangement list
+
+MEWB BAPIs Reservation
+
+BAPI_RESERVATION_CREATE Create Reservation
+
+BAPI_RESERVATION_GETDETAIL Display Details of Reservation
+
+BAPI_RESERVATION_GETITEMS List Reservations
+
+MEWF BAPIs for Release of Requisition/PO
+
+BAPI_PO_RELEASE Release Purchase Orders
+
+BAPI_PO_RESET_RELEASE Cancel Release of Purchase Orders
+
+BAPI_REQUISITION_RELEASE Release Purchase Requisition Item by Item
+
+BAPI_REQUISITION_RELEASE_GEN Release Entire Purchase Requisition
+
+BAPI_REQUISITION_RESET_RELEASE Cancel Release of Purchase Requisition Items
+
+BAPI_REQUISITION_RESET_REL_GEN Cancel Overall Release of Purchase Requisitions
+
+MEWI BAPIs for Info Record
+
+BAPI_INFORECORD_GETLIST Display Purchasing Info Records
+
+MEWP BAPIs Purchase order
+
+BAPI_PO_CREATE Create Purchase Order
+
+BAPI_PO_GETDETAIL Display Purchase Order Details
+
+BAPI_PO_GETITEMS List Purchase Order Items
+
+BAPI_PO_GETITEMSREL List Purchase Orders for Release (Approval): New as of 4.0A
+
+BAPI_PO_GETRELINFO Display Detailed Release (Approval) Information on Purchase Order
+
+BAPI_PO_GET_LIST List Purchase Orders - Only up to 4.0A
+
+BAPI_PROCOPERATION_GETCATALOGS Determine Valid Catalogs as Value Help
+
+BAPI_PROCOPERATION_GETINFO Analysis of Objects to be Generated in Purchasing
+
+MEWQ BAPIs Requirement Coverage Request
+
+BAPI_REQUISITION_CHANGE Change Purchase Requisition
+
+BAPI_REQUISITION_CREATE Create Purchase Requisition
+
+BAPI_REQUISITION_DELETE Delete/Close Purchase Requisition
+
+BAPI_REQUISITION_GETDETAIL Display Purchase Requisition Details
+
+BAPI_REQUISITION_GETITEMS Read Purchase Requisition Item
+
+BAPI_REQUISITION_GETITEMSREL List Purchase Requisitions Awaiting Release
+
+BAPI_REQUISITION_GETRELINFO Display Detailed Release (Approval) Information on 
+
+Purchase Requisition
+
+BAPI_SOURCEDETERMIN_GETSOS Determine Sources for Material/Material Group
+
+MEWR BAPIs Requirement Coverage Request
+
+BAPI_REQUIREMENT_CREATE Create Requirement Coverage Request
+
+BAPI_REQUIREMENT_GET_LIST List Requirement Coverage Requests/Requisitions
+
+MLBO BAPIs for Entry Sheet (BO 2091)
+
+BAPI_ENTRYSHEET_CHECK Check Service Entry Sheet
+
+BAPI_ENTRYSHEET_CREATE Create Entry Sheet
+
+BAPI_ENTRYSHEET_DELETE Delete Entry Sheet
+
+BAPI_ENTRYSHEET_GETDETAIL Display Detailed Data on Entry Sheet
+
+BAPI_ENTRYSHEET_GETLIST List Entry Sheets
+
+BAPI_ENTRYSHEET_GETRELINFO Detailed Release Information Relating to Entry Sheet
+
+BAPI_ENTRYSHEET_RELEASE Release Entry Sheet
+
+BAPI_ENTRYSHEET_RESET_RELEASE Cancel Release of Entry Sheets
+
+MPKV BAPIS for Kanban Control Cycle (BUS1172)
+
+BAPI_KANBANCC_ADDEVENTDRKANBAN Create Event-Driven KANBAN for Control Cycle
+
+BAPI_KANBANCC_GETLIST Determine Kanban Control Cycles with Selection Criteria
+
+BAPI_KANBANCC_WITHDRAWQUANTITY Quantity Signal for Kanban Control Cycle
+
+MPKW Methods (BAPIs) for Kanban (BUS1075)
+
+BAPI_KANBAN_CHANGESTATUS Change Status of a Kanban
+
+BAPI_KANBAN_GETLIST Determining Kanbans for Selection Criteria
+
+BAPI_KANBAN_GETLISTFORSUPPLIE1 Provide KANBAN data for vendors 2nd version (new 
+
+address fields)
+
+BAPI_KANBAN_GETLISTFORSUPPLIER Provide Kanban data for vendors
+
+BAPI_KANBAN_SETINPROCESS Set Kanban Status to IN PROCESS
+
+MRM_BAPI Invoice Verification BAPIs
+
+BAPI_INCOMINGINVOICE_CANCEL Invoice Verification: Reverse Invoice
+
+BAPI_INCOMINGINVOICE_CREATE Invoice Verification: Create Invoice
+
+BAPI_INCOMINGINVOICE_GETDETAIL Invoice Verification: Display Invoice
+
+BAPI_INCOMINGINVOICE_GETLIST Invoice Verification: List Invoices
+
+BAPI_INCOMINGINVOICE_RELEASE Invoice Verification: Release Invoice
+
+PADR Business object: AddressEmp
+
+BAPIADDRESSEMPSIMULATECREATION Simulation: Create Employee Address
+
+BAPI_ADDRESSEMPCREATESUCCESSOR Create subs.employee address record
+
+BAPI_ADDRESSEMPGETDETAILEDLIST Read instances with data
+
+BAPI_ADDRESSEMP_APPROVE Unlock employee address
+
+BAPI_ADDRESSEMP_CHANGE Change Employee Address
+
+BAPI_ADDRESSEMP_CREATE Create Employee Address
+
+BAPI_ADDRESSEMP_DELETE Delete employee address
+
+BAPI_ADDRESSEMP_DELIMIT Delimit Employee Address Validity Period
+
+BAPI_ADDRESSEMP_GETDETAIL Read employee address
+
+BAPI_ADDRESSEMP_GETLIST Read Instances
+
+BAPI_ADDRESSEMP_REQUEST Create locked employee address record
+
+PADR_CH Business Object: AddressEmp
+
+BAPIADDREMPCH_SIMULATECREATION Simulation: Create Employee Address
+
+BAPI_ADDREMPCH_CREATESUCCESSOR Create Subsequent Employee Address Record
+
+BAPI_ADDREMPCH_GETDETAILEDLIST Read Instances with Data
+
+BAPI_ADDRESSEMPCH_CHANGE Change Employee Address
+
+BAPI_ADDRESSEMPCH_CREATE Create Employee Address
+
+BAPI_ADDRESSEMPCH_GETDETAIL Read Employee Address
+
+BAPI_ADDRESSEMPCH_REQUEST Create Locked Employee Address Record
+
+PADR_DE Business Object AddressEmp (DE)
+
+BAPIADDREMPDE_SIMULATECREATION Simulation: Create Employee Address
+
+BAPI_ADDREMPDE_CREATESUCCESSOR Create Next Employee Address Record
+
+BAPI_ADDREMPDE_GETDETAILEDLIST Read Instances with Data
+
+BAPI_ADDRESSEMPDE_CHANGE Change Employee Address
+
+BAPI_ADDRESSEMPDE_CREATE Create Employee Address
+
+BAPI_ADDRESSEMPDE_GETDETAIL Read Employee Address
+
+BAPI_ADDRESSEMPDE_REQUEST Create Locked Employee Address Record
+
+PADR_DK Business Object AddressEmp - DK
+
+BAPIADDREMPDK_SIMULATECREATION Simulation: Create Employee Address
+
+BAPI_ADDREMPDK_CREATESUCCESSOR Create Subs.Employee Address Record
+
+BAPI_ADDREMPDK_GETDETAILEDLIST Read Instances with Data
+
+BAPI_ADDRESSEMPDK_CHANGE Change Employee Address
+
+BAPI_ADDRESSEMPDK_CREATE Create Employee Address
+
+BAPI_ADDRESSEMPDK_GETDETAIL Read Employee Address
+
+BAPI_ADDRESSEMPDK_REQUEST Create Locked Employee Address Record
+
+PADR_ES Business Object AddrEmpE
+
+BAPIADDREMPES_SIMULATECREATION Simulation: Create employee address
+
+BAPI_ADDREMPES_CREATESUCCESSOR Create employee address next record
+
+BAPI_ADDREMPES_GETDETAILEDLIST Read instances with data
+
+BAPI_ADDRESSEMPES_CHANGE Change Employee Address
+
+BAPI_ADDRESSEMPES_CREATE Create Employee Address
+
+BAPI_ADDRESSEMPES_GETDETAIL Read employee address
+
+BAPI_ADDRESSEMPES_REQUEST Create locked employee address record
+
+PADR_FR
+
+BAPIADDREMPFR_SIMULATECREATION
+
+BAPI_ADDREMPFR_CREATESUCCESSOR
+
+BAPI_ADDREMPFR_GETDETAILEDLIST
+
+BAPI_ADDRESSEMPFR_CHANGE
+
+BAPI_ADDRESSEMPFR_CREATE
+
+BAPI_ADDRESSEMPFR_GETDETAIL
+
+BAPI_ADDRESSEMPFR_REQUEST
+
+PADR_IE Business Object AddressEmp - Ireland
+
+BAPIADDREMPIE_SIMULATECREATION Simulation: Mitarbeiteradresse anlegen
+
+BAPI_ADDREMPIE_CREATESUCCESSOR Create subs.employee address record
+
+BAPI_ADDREMPIE_GETDETAILEDLIST Read instances with data
+
+BAPI_ADDRESSEMPIE_CHANGE Change Employee Address
+
+BAPI_ADDRESSEMPIE_CREATE Create Employee Address
+
+BAPI_ADDRESSEMPIE_GETDETAIL Read employee address
+
+BAPI_ADDRESSEMPIE_REQUEST Create locked employee address record
+
+PADR_IT HR Employee Self-Service: Address Italy
+
+BAPIADDREMPIT_SIMULATECREATION Simulation: Create employee’s address
+
+BAPI_ADDREMPIT_CREATESUCCESSOR Create subsequent record personnel number
+
+BAPI_ADDREMPIT_GETDETAILEDLIST <Currently not used>
+
+BAPI_ADDRESSEMPIT_CHANGE Change employee’s address
+
+BAPI_ADDRESSEMPIT_CREATE Create employee’s address
+
+BAPI_ADDRESSEMPIT_GETDETAIL Read employee’s address
+
+BAPI_ADDRESSEMPIT_REQUEST Create blocked employee’s address
+
+PADR_JP Business object: AddressEmpJP
+
+BAPI_ADDRESSEMPJP_CHANGE Address Japan: Change record
+
+BAPI_ADDRESSEMPJP_CREATE address Japan: Create record
+
+BAPI_ADDRESSEMPJP_CRESUCCESSOR Address Japan: Create succeeding record
+
+BAPI_ADDRESSEMPJP_DETAILEDLIST Address Japan: Read instances with record
+
+BAPI_ADDRESSEMPJP_GETDETAIL Address Japan: Read record
+
+BAPI_ADDRESSEMPJP_REQUEST Address Japan: Create locked record
+
+BAPI_ADDRESSEMPJP_SIMUCREATION Address Japan: Simulate Create record
+
+PADR_NL Business Object AddressEmp (NL)
+
+BAPIADDREMPNL_SIMULATECREATION Simulation: Create employee address
+
+BAPI_ADDREMPNL_CREATESUCCESSOR Create subsequent employee address record
+
+BAPI_ADDREMPNL_GETDETAILEDLIST Read instances with data
+
+BAPI_ADDRESSEMPNL_CHANGE Change Employee Address
+
+BAPI_ADDRESSEMPNL_CREATE Create Employee Address
+
+BAPI_ADDRESSEMPNL_GETDETAIL Read employee address
+
+BAPI_ADDRESSEMPNL_REQUEST Create locked employee address record
+
+PADR_US Business Object AddressEmp (NL)
+
+BAPIADDREMPUS_SIMULATECREATION
+
+BAPI_ADDREMPUS_CREATESUCCESSOR Create subs.employee address record
+
+BAPI_ADDREMPUS_GETDETAILEDLIST Read instances with data
+
+BAPI_ADDRESSEMPUS_CHANGE Change Employee Address
+
+BAPI_ADDRESSEMPUS_CREATE Create Employee Address
+
+BAPI_ADDRESSEMPUS_GETDETAIL Read employee address
+
+BAPI_ADDRESSEMPUS_REQUEST Create locked employee address record
+
+PAW4_US Business Object W4W5InfoUS
+
+BAPIW4W5INFOUSSIMULATECREATION Employee W4/W5 Information: Simulate Record Creation
+
+BAPI_W4W5INFOUSGETDETAILEDLIST Employee W4/W5 Information: Read Instances with Data
+
+BAPI_W4W5INFOUS_APPROVE Employee W4/W5 Information: Unlock Record
+
+BAPI_W4W5INFOUS_CHANGE Employee W4/W5 Information: Change Record
+
+BAPI_W4W5INFOUS_CREATE Employee W4/W5 Information: Create Record
+
+BAPI_W4W5INFOUS_DELETE Employee W4/W5 Information: Delete Record
+
+BAPI_W4W5INFOUS_DELIMIT Employee W4/W5 Information: Delimit Record
+
+BAPI_W4W5INFOUS_GETDETAIL Employee W4/W5 Information: Read Record
+
+BAPI_W4W5INFOUS_GETLIST Employee W4/W5 Information: Read Instances
+
+BAPI_W4W5INFOUS_REQUEST Employee W4/W5 Information: Create Locked Record
+
+PBNK Business Object BankDetail
+
+BAPIBANKDETAILSIMULATECREATION Simulation: Create Bank Details
+
+BAPI_BANKDETAILCREATESUCCESSOR Create subsequent bank details record
+
+BAPI_BANKDETAILGETDETAILEDLIST Read instances with data
+
+BAPI_BANKDETAIL_APPROVE Unlock bank details
+
+BAPI_BANKDETAIL_CHANGE Change bank details
+
+BAPI_BANKDETAIL_CREATE Create bank details
+
+BAPI_BANKDETAIL_DELETE Delete bank details
+
+BAPI_BANKDETAIL_DELIMIT Delimit bank details
+
+BAPI_BANKDETAIL_GETDETAIL Read bank details
+
+BAPI_BANKDETAIL_GETLIST Read instances
+
+BAPI_BANKDETAIL_REQUEST Create locked bank details record
+
+PBNK_GB Business Object BankDetail - GB
+
+BAPIBANKDETAILGBSIMULATECREATN Simulation: Create Bank Details
+
+BAPI_BANKDETAILGBCREATESUCCESS Create subsequent bank details record
+
+BAPI_BANKDETAILGBGETDETAILLIST Read instances with data
+
+BAPI_BANKDETAILGB_APPROVE Unlock bank details
+
+BAPI_BANKDETAILGB_CHANGE Change bank details
+
+BAPI_BANKDETAILGB_CREATE Create bank details
+
+BAPI_BANKDETAILGB_DELETE Delete bank details
+
+BAPI_BANKDETAILGB_DELIMIT Bankverbindung zeitlich abgrenzen
+
+BAPI_BANKDETAILGB_GETDETAIL Read bank details
+
+BAPI_BANKDETAILGB_GETLIST Read instances
+
+BAPI_BANKDETAILGB_REQUEST Create locked bank details record
+
+PBNK_JP Business Object BankDetail JP
+
+BAPI_BANKDETAILJP_DETAILEDLIST Bank Japan: Read instances with record
+
+BAPI_BANKDETAILJP_GETDETAIL Bank Japan: Read record
+
+PBNK_NL Business Object BankDetail (NL)
+
+BAPIBANKDETAILSIMULATECREATINL Simulation: Create bank details
+
+BAPI_BANKDETAILCREATESUCCESSNL Create subsequent bank details record
+
+BAPI_BANKDETAILGETDETAILEDLINL Read instances with data
+
+BAPI_BANKDETAILNL_APPROVE Unlock bank details
+
+BAPI_BANKDETAILNL_CHANGE Change Bank Details
+
+BAPI_BANKDETAILNL_CREATE Create Bank Details
+
+BAPI_BANKDETAILNL_DELETE Delete Bank Details
+
+BAPI_BANKDETAILNL_GETDETAIL Read bank details
+
+BAPI_BANKDETAILNL_GETLIST Read Instances
+
+BAPI_BANKDETAILNL_REQUEST Create locked bank details record
+
+PDATAR Business object date type
+
+BAPI_DATESPECS_GETDETAILEDLIST Read instances with data
+
+PERS Business object: PersData
+
+BAPI_PERSDATA_CHANGE Change personal data
+
+BAPI_PERSDATA_CREATE Create personal data
+
+BAPI_PERSDATA_CREATESUCCESSOR Create subs.personal data record
+
+BAPI_PERSDATA_DELETE Delete personal data
+
+BAPI_PERSDATA_DELIMIT Delimit personal data validity period
+
+BAPI_PERSDATA_GETDETAIL Read personal data
+
+BAPI_PERSDATA_GETDETAILEDLIST Read instances with data
+
+BAPI_PERSDATA_GETLIST Read instances
+
+BAPI_PERSDATA_SIMULATECREATION Simulation: Create personal data
+
+PERS_JP Business object: PersDataJP
+
+BAPI_PERSDATAJP_CHANGE Personal data Japan: Change record
+
+BAPI_PERSDATAJP_CREATE Personal data Japan: Create record
+
+BAPI_PERSDATAJP_CREATSUCCESSOR Personal data Japan: Create succeeding record
+
+BAPI_PERSDATAJP_GEDETAILEDLIST Personal data Japan: Read instances with record
+
+BAPI_PERSDATAJP_GETDETAIL Personal data Japan: Read record
+
+BAPI_PERSDATAJP_SIMULACREATION Personal data Japan: Simulate Create record
+
+PERS_NL Business Object PersData (NL)
+
+BAPI_PERSDANL_CREATESUCCESSOR Create subs.personal data record
+
+BAPI_PERSDANL_GETDETAILEDLIST Read instances with data
+
+BAPI_PERSDANL_SIMULATECREATION Simulation: Create personal data
+
+BAPI_PERSDATANL_CHANGE Change Personal Data
+
+BAPI_PERSDATANL_CREATE Create Personal Data
+
+BAPI_PERSDATANL_DELETE Delete Personal Data
+
+BAPI_PERSDATANL_GETDETAIL Read Personal Data
+
+BAPI_PERSDATANL_GETLIST Read Instances
+
+PFAM Business Object Family
+
+BAPI_FAMILY_APPROVE Unlock family
+
+BAPI_FAMILY_CHANGE Change Family
+
+BAPI_FAMILY_CREATE Create Family
+
+BAPI_FAMILY_CREATESUCCESSOR Create subsequent family record
+
+BAPI_FAMILY_DELETE Delete Family
+
+BAPI_FAMILY_DELIMIT Delimit family validity period
+
+BAPI_FAMILY_GETDETAIL Read family
+
+BAPI_FAMILY_GETDETAILEDLIST Read instances with data
+
+BAPI_FAMILY_GETLIST Read Instances
+
+BAPI_FAMILY_REQUEST Create locked family record
+
+BAPI_FAMILY_SIMULATECREATION Simulation: Create family
+
+PFAM_GB Business Object Family - GB
+
+BAPI_FAMILYGB_APPROVE Unlock family
+
+BAPI_FAMILYGB_CHANGE Change family
+
+BAPI_FAMILYGB_CREATE Create family
+
+BAPI_FAMILYGB_CREATESUCCESSOR Create subsequent family record
+
+BAPI_FAMILYGB_DELETE Delete family
+
+BAPI_FAMILYGB_DELIMIT Delimit family
+
+BAPI_FAMILYGB_GETDETAIL Read family
+
+BAPI_FAMILYGB_GETDETAILEDLIST Read instances with data
+
+BAPI_FAMILYGB_GETLIST Read instances
+
+BAPI_FAMILYGB_REQUEST Create locked family record
+
+BAPI_FAMILYGB_SIMULATECREATION Simulation: Create family
+
+PFAM_IE Business Object Family - Ireland
+
+BAPI_FAMILYIE_APPROVE Unlock family
+
+BAPI_FAMILYIE_CHANGE Change family
+
+BAPI_FAMILYIE_CREATE Create family
+
+BAPI_FAMILYIE_CREATESUCCESSOR Create subsequent family record
+
+BAPI_FAMILYIE_DELETE Delete family
+
+BAPI_FAMILYIE_DELIMIT Delimit family
+
+BAPI_FAMILYIE_GETDETAIL Read family
+
+BAPI_FAMILYIE_GETDETAILEDLIST Read instances with data
+
+BAPI_FAMILYIE_GETLIST Read instances
+
+BAPI_FAMILYIE_REQUEST Create locked family record
+
+BAPI_FAMILYIE_SIMULATECREATION Simulation: Create family
+
+PFAM_IT IT family member Business object
+
+BAPI_FAMILYIT_CHANGE IT family member: change record
+
+BAPI_FAMILYIT_CREATE IT family members: create record
+
+BAPI_FAMILYIT_CREATESUCCESSOR IT family member: Create next record
+
+BAPI_FAMILYIT_GETDETAIL IT family member: detail
+
+BAPI_FAMILYIT_GETDETAILEDLIST IT family member: read instances with data
+
+BAPI_FAMILYIT_REQUEST IT family member: Create blocked record
+
+BAPI_FAMILYIT_SIMULATECREATION IT family member: Simulate creation
+
+PFAM_JP Business Object FamilyJP
+
+BAPI_FAMILYJP_CHANGE Family Japan: Change record
+
+BAPI_FAMILYJP_CREATE Family Japan: Create record
+
+BAPI_FAMILYJP_CREATESUCCESSOR Family Japan: Create succeeding record
+
+BAPI_FAMILYJP_GETDETAIL Family Japan: Read record
+
+BAPI_FAMILYJP_GETDETAILEDLIST Family Japan: Read instances with record
+
+BAPI_FAMILYJP_REQUEST Family Japan: Create locked record
+
+BAPI_FAMILYJP_SIMULATECREATION Family Japan: Simulate Create record
+
+PFAM_NL Business Object Family (NL)
+
+BAPI_FAMILYNL_CHANGE Change Family
+
+BAPI_FAMILYNL_CREATE Create Family
+
+BAPI_FAMILYNL_CREATESUCCESSOR Create subsequent family record
+
+BAPI_FAMILYNL_GETDETAIL Read family
+
+BAPI_FAMILYNL_GETDETAILEDLIST Read instances with data
+
+BAPI_FAMILYNL_REQUEST Create locked family record
+
+BAPI_FAMILYNL_SIMULATECREATION Simulation: Create family
+
+PFAM_US Business Object FamilyUS
+
+BAPI_FAMILYUS_CHANGE Family US: Change record
+
+BAPI_FAMILYUS_CREATE Family US: Create record
+
+BAPI_FAMILYUS_CREATESUCCESSOR Family US: Create subsequent family record
+
+BAPI_FAMILYUS_GETDETAIL Family US: Read Record
+
+BAPI_FAMILYUS_GETDETAILEDLIST Family US: Read instances with data
+
+BAPI_FAMILYUS_REQUEST Family US: Create locked record
+
+BAPI_FAMILYUS_SIMULATECREATION Family US: Simulate record creation
+
+PFDC Bus Object FISCDATACA : Fisc Data Canada
+
+BAPI_FISCDATA_CA_GETDETAILLIST Read the employee fiscal data - CANADA
+
+PICO Business Object IntControl
+
+BAPIINTCONTROLSIMULATECREATION Simulation: Create internal control
+
+BAPI_INTCONTROLCREATESUCCESSOR Create subsequent internal control record
+
+BAPI_INTCONTROL_APPROVE Unlock internal control
+
+BAPI_INTCONTROL_CHANGE Change internal control
+
+BAPI_INTCONTROL_CREATE Create internal control
+
+BAPI_INTCONTROL_DELETE Delete internal control
+
+BAPI_INTCONTROL_DELIMIT Delimit internal control validity period
+
+BAPI_INTCONTROL_GETDETAIL Read internal control
+
+BAPI_INTCONTROL_GETLIST Read instances
+
+BAPI_INTCONTROL_REQUEST Create locked internal control record
+
+PRGN_BAPIS BAPIs for Activity Groups
+
+BAPI_CONVERT_DATA_FROM_AGR Conversion of Internal Tables to BAPI Format
+
+BAPI_CONVERT_DATA_TO_AGR Conversion of Internal Tables From BAPI Format
+
+BAPI_JOBROLE_CLONE Create a User Role in Another System By Copying
+
+PTEX External Interfaces
+
+BAPI_PTMGREXTTIMESPEC_GETSTATU BAPI: Transmits Status of Record in the Interface 
+
+Table
+
+QAALE Distribution of QM Setup Data
+
+BAPI_MATINSPCTRL_REPLICATE Prepare Inspection Setup (Inspection Types) for 
+
+Distribution
+
+BAPI_MATINSPCTRL_SAVEREPLICA Replication of QM Inspection Setup
+
+QC08 BAPIs for Q-certificates on the Web
+
+BAPI_CUSTOMER_GETSALESAREAS Create List of Sales Areas for the Customer
+
+BAPI_CUST_SAREAS_MATERIALS_GET Create List of Materials for the Sales Areas of a 
+
+Customer
+
+QIST QM Statistical Interface (QM-STI)
+
+BAPI_INSPLOT_STATINTERFACE QM STI Interface
+
+RH65 HR-CA: Who is Who
+
+BAPI_EMPLOYEE_GETDATA Find Personnel Numbers for Specified Search Criteria
+
+RHABAPI HR-CA: Distribution Using BAPI
+
+BAPI_HRMASTER_SAVE_REPL_MULT BAPI for Replicating HR Master Data, HR Organizational 
+
+Data
+
+RHALMULT1 HR-CA: Distributed Org. Managemt (BAPIs)
+
+BAPI_ORGMASTER_REPLICATE HR-CA: Replication of HR Objects
+
+BAPI_ORGMASTER_SAVE_ORIG_MULT Save Replications of HR Organizational Objects as 
+
+Originals
+
+BAPI_ORGMASTER_SAVE_REPL_MULT BAPI for Replication of HR Organizational Data
+
+RHPE_JOBREQUIRE_BAPI PA-PD: BAPI’s for Requirements
+
+BAPI_JOBREQUIRE_GETLIST Read requirements profile
+
+RHPE_JOBREQUIRE_PROF_BAPI PA-PD: BAPIs for Requirements Profiles
+
+BAPI_JOBREQUIREPROF_CHANGE Create, Delete or Change Requirements Subprofile
+
+RHPE_PDOTYPE_Q_BAPI PA-PD: BAPI’s for Qualification Type
+
+BAPI_PDOTYPE_Q_GETDETAIL Attributes of a qualification type
+
+BAPI_PDOTYPE_Q_GETLIST Read qualification types
+
+RHPE_QUALIFIC_BAPI PA-PD: BAPI’s for Qualifications
+
+BAPI_QUALIFIC_GETLIST Read qualifications profile
+
+RHPE_QUALI_DIR_BAPI PA-PD: BAPIs for Qualifications Catalog
+
+BAPI_QUALIDIRECTORY_LIST Structure of qualifications catalog
+
+BAPI_QUALIDIRECTORY_LIST_UP Read qualification group for qualification
+
+RHPE_QUALI_PROF_BAPI PA-PD: BAPIs for Qualifications Profiles
+
+BAPI_QUALIPROF_CHANGE Create, delete, and change qualifications profile
+
+RHVI Training & Events: Internet, BAPI
+
+BAPI_ATTENDEE_BOOK_LIST Read Attendee Bookings
+
+BAPI_ATTENDEE_CHANGEPASSWORD Change attendee password
+
+BAPI_ATTENDEE_CHECKEXISTENCE Check existence of attendee
+
+BAPI_ATTENDEE_CHECKPASSWORD Check attendee password
+
+BAPI_ATTENDEE_PREBOOK_LIST Read attendee prebookings
+
+BAPI_ATTENDEE_TYPE_LIST Internet attendee types
+
+BAPI_BOOK_ATTENDANCE Book Attendance
+
+BAPI_BUS_EVENTGROUP_LIST Read Business Event Group Hierarchy
+
+BAPI_BUS_EVENTTYPE_INFO Read data for business event type
+
+BAPI_BUS_EVENTTYPE_LIST Read business event types in a business event group
+
+BAPI_BUS_EVENT_INFO Read Business Event Data
+
+BAPI_BUS_EVENT_INIT Read default values for creation of business event catalog
+
+BAPI_BUS_EVENT_LANGUAGE Business event languages
+
+BAPI_BUS_EVENT_LIST Read business event dates for event type
+
+BAPI_BUS_EVENT_LOCATION Business event locations
+
+BAPI_BUS_EVENT_SCHEDULE Read time schedule of a business event
+
+BAPI_COMPANY_BOOK_LIST Read all bookings of a group attendee
+
+BAPI_COMPANY_PREBOOK_LIST Read prebookings of a group attendee
+
+BAPI_DELETE_ATTENDANCE Cancel attendance
+
+BAPI_GET_EVENTTYPE_FOR_QUALIF Determine Business Event Types for Specified 
+
+Qualifications
+
+BAPI_GET_EVENTTYPE_FOR_TARGET Determine Business Event Types via Target Group
+
+BAPI_PREBOOK_ATTENDANCE Prebook attendance
+
+BAPI_SEARCH_EVENTTYPE_NAME Find Business Event Types Using String in Object Text
+
+BAPI_SEARCH_EVENTTYPE_TEXT Find Business Event Types Using String in Object 
+
+Description
+
+BAPI_SUBTYPES_FOR_DESCRIPTION Determine Subtypes of Description Infotype
+
+RH_APPRAISAL_BAPI PA-PD: BAPIs for Appraisals
+
+BAPI_APPRAISAL_CHANGE Change appraisals
+
+BAPI_APPRAISAL_CREATE Create appraisals
+
+BAPI_APPRAISAL_DELETE Delete appraisals
+
+BAPI_APPRAISAL_GETDETAIL Read appraisal
+
+BAPI_APPRAISAL_GETLIST Display appraisals
+
+BAPI_APPRAISAL_STATUS_CHANGE Change appraisal status
+
+RH_APPRAISAL_MODEL_BAPI PA-PD: BAPIs for Appraisal Models
+
+BAPI_APPRAISAL_MODEL_GETDETAIL Read appraisal model
+
+BAPI_APPRAISAL_MODEL_GETLIST Display Appraisal Model
+
+BAPI_APPRAISAL_SCALE_GETDETAIL Read proficiencies and texts for scale
+
+BAPI_APPRAISEE_GETLIST Read appraisees
+
+BAPI_APPRAISER_GETLIST Read appraisers
+
+RH_ORGPUB_APP OrgPublisher Integration/Application
+
+BAPI_ORGUNITEXT_DATA_GET Get data on organizational unit
+
+RH_PDOTYPES BAPI Function Modules
+
+BAPI_PDOTYPES_GETDETAILEDLIST Object List With Detailed Information
+
+RPTC HR-TIM: Connection to Time Rec. Systems
+
+BAPI_CC1_DNLOAD_ATTABSREASON HR-PDC: Download Attendance/Absence Reasons
+
+BAPI_CC1_DNLOAD_BALANCES HR-PDC: Download Employee Balances
+
+BAPI_CC1_DNLOAD_COSTCENTER HR-PDC: Download Cost Centers
+
+BAPI_CC1_DNLOAD_EXTWAGETYPE HR-PDC: Download Permitted Employee Expenditures
+
+BAPI_CC1_DNLOAD_INTERNALORDER HR-PDC: Download Internal Orders
+
+BAPI_CC1_DNLOAD_MINIMASTER HR-PDC: Download HR Mini-Master
+
+BAPI_CC1_DNLOAD_OBJECTID HRPDC: Download Objects (such as Positions)
+
+BAPI_CC1_DNLOAD_TEVENTTGROUP HR-PDC: Download Time Event Type Groupings
+
+BAPI_CC1_DNLOAD_WBSELEMENT HR-PDC: Download Work Breakdown Structure Element
+
+BAPI_CC1_REQUEST_EXTWAGETYPE HR-PDC: Upload Request for Employee Expenditures
+
+BAPI_CC1_REQUEST_TIMEEVENT HR-PDC: Upload Request for Time Events
+
+BAPI_CC1_UPLOAD_EXTWAGETYPE HR-PDC: Upload Employee Expenditures
+
+BAPI_CC1_UPLOAD_TIMEEVENT HR-PDC: Upload Time Events
+
+RWCL Interface to Accounting
+
+BAPI_ACC_DOCUMENT_DISPLAY Accounting: Display Method for Follow-On Document Display
+
+BAPI_ACC_DOCUMENT_RECORD Accounting: Follow-on Document Numbers for Source Document
+
+SALX Monitoring Arch.: External Interfaces
+
+BAPI_SYSTEM_ALERT_ACKNOWLEDGE Confirmation of an Alert
+
+BAPI_SYSTEM_ALERT_GETDETAILS Read Alert Details
+
+BAPI_SYSTEM_ALERT_SPLITTDATA Splits Alert Data into Logical Units
+
+BAPI_SYSTEM_MON_BUILD Creating a System Monitor Using a List of MTEs
+
+BAPI_SYSTEM_MON_GETDETAILS Read (Display) Properties into System Monitor
+
+BAPI_SYSTEM_MON_GETLIST Read All Monitors in a Monitor Set
+
+BAPI_SYSTEM_MON_GETTEMPLATE Read All Monitor Templates for a Specific Monitor
+
+BAPI_SYSTEM_MON_GETTREE Reports the Monitor Tree
+
+BAPI_SYSTEM_MS_GETDETAILS Read the Monitor Set Display Properties
+
+BAPI_SYSTEM_MS_GETLIST Read All Stored Monitor Sets
+
+BAPI_SYSTEM_MTE_DISABLEALGEN Switch Off Alert Generation for a Monitor Tree Element
+
+BAPI_SYSTEM_MTE_ENABLEALGEN Switch On Alert Generation for a Monitor Tree Element
+
+BAPI_SYSTEM_MTE_GETALERTS Read Alerts for a Monitor Tree Element
+
+BAPI_SYSTEM_MTE_GETGENPROP Read General Properties of a Monitor Tree Element
+
+BAPI_SYSTEM_MTE_GETMLCURVAL Read Current Values of a Log Attribute
+
+BAPI_SYSTEM_MTE_GETMLHIS Read Value History of a Log Attribute
+
+BAPI_SYSTEM_MTE_GETMLPROP Read Specific Properties of a Log Attribute
+
+BAPI_SYSTEM_MTE_GETPERFCURVAL Read the Current Performance Values
+
+BAPI_SYSTEM_MTE_GETPERFHIS Read the Performance Data History
+
+BAPI_SYSTEM_MTE_GETPERFPROP Read the Specific Performance Attribute Properties
+
+BAPI_SYSTEM_MTE_GETSMPROP Read the Properties Specific to a Status Attribute
+
+BAPI_SYSTEM_MTE_GETSMVALUE Read Current Status Attribute Values
+
+BAPI_SYSTEM_MTE_GETTIDBYNAME Read TID for a Uniquely-Named MTE
+
+BAPI_SYSTEM_MTE_GETTREE Read Subtree Expanded by Monitor Tree Element
+
+BAPI_SYSTEM_MTE_RESET Reset Properties for Monitor Tree Element
+
+BAPI_SYSTEM_MTE_SETGENPROP Set the General Properties of a MTE
+
+BAPI_SYSTEM_MTE_SETMLPROP Set the Specific Message Log Properties
+
+BAPI_SYSTEM_MTE_SETPERFPROP Set the Specific Performance Attribute Properties
+
+BAPI_SYSTEM_MTE_SETSMPROP Set the Specific Status Attribute Properties
+
+BAPI_SYSTEM_MTE_SPLITTDATA Splits the Data for a Node into Logical Units
+
+BAPI_SYSTEM_MT_CREATEBYTEMPL Creates a Monitor Tree Based on a Monitor Template
+
+BAPI_SYSTEM_MT_GETALERTDATA Read Alert Data into Monitor Tree
+
+BAPI_SYS_MNGMT_UTIL_GETCURSERV Determine Current Available Servers and Services
+
+SCTS_OBJECT_CTREQUEST Methods for Object Type CTRequest
+
+BAPI_CTREQUEST_CREATE Create request with tasks (method for object CTREQUEST)
+
+BAPI_CTREQUEST_CREATE_TASKS Create tasks for request (method for object CTREQUEST)
+
+BAPI_CTREQUEST_RELEASE Release task or request (method for object CTREQUEST)
+
+SU_COMPANY Distribution of company addresses
+
+BAPI_COMPANY_CLONE Duplicate company address in another system
+
+BAPI_COMPANY_DELETE Delete Company Address in Other System
+
+BAPI_COMPANY_DISPLAY Delete Company Address in Other System
+
+BAPI_COMPANY_RENAME Change Company Address
+
+BAPI_COMPANY_RESPONSE Users: Confirmation to Central System
+
+SU_USER Methods of object USER
+
+BAPI_USER_ACTGROUPS_ASSIGN User: Change entire activity group assignment
+
+BAPI_USER_ACTGROUPS_DELETE User: Delete entire activity group assignment
+
+BAPI_USER_CHANGE Change User
+
+BAPI_USER_CLONE Create User with Template in Another System
+
+BAPI_USER_CREATE Create a User
+
+BAPI_USER_CREATE1 Create a User
+
+BAPI_USER_DELETE BAPI to Delete a User
+
+BAPI_USER_DISPLAY Display users
+
+BAPI_USER_EXISTENCE_CHECK Check a user exists
+
+BAPI_USER_GET_DETAIL Read User Details
+
+BAPI_USER_LOCACTGROUPS_ASSIGN Change Activity Group Assignment for Dependent Systems 
+
+from Central System
+
+BAPI_USER_LOCACTGROUPS_DELETE Delete Activity Group Assignments in the Dependent 
+
+Systems
+
+BAPI_USER_LOCK Lock User
+
+BAPI_USER_LOCPROFILES_ASSIGN Change Profile Assignment for Dependent Systems from 
+
+Central System
+
+BAPI_USER_LOCPROFILES_DELETE Delete Profile Assignments for Dependent Systems
+
+BAPI_USER_PROFILES_ASSIGN User: Assign profiles
+
+BAPI_USER_PROFILES_DELETE User: Delete All Profile Assignments
+
+BAPI_USER_UNLOCK Unlock user
+
+SXBP External Interface f. Background Proc.
+
+BAPI_XBP_GET_BP_RESRC_ON_DATE Determine all Background Resources Available on a 
+
+Particular Date
+
+BAPI_XBP_GET_BP_SRVRES_ON_DATE Determine Background Resources of Server on 
+
+Particular Date
+
+BAPI_XBP_GET_CURR_BP_RESOURCES Determine Background Resources Currently Available in 
+
+System
+
+BAPI_XBP_INTRFACE_DESCRIBE_INT Each SMAPI Delivers ‘Its’ Long Text Name via This 
+
+Type of Function
+
+BAPI_XBP_JOB_ABAP_STEP_MODIFY Assign ABAP Program to a Specific Job Step
+
+BAPI_XBP_JOB_ABORT Cancel Job
+
+BAPI_XBP_JOB_ADD_ABAP_STEP Add Job Step with ABAP Program to a Job
+
+BAPI_XBP_JOB_ADD_EXT_STEP Assign an External Program to a Job Step
+
+BAPI_XBP_JOB_CLOSE Complete Job Definition
+
+BAPI_XBP_JOB_COUNT Count How Many Jobs There are With a Particular Name
+
+BAPI_XBP_JOB_DEFINITION_GET Read Job Definition
+
+BAPI_XBP_JOB_DELETE Count How Many Jobs There are With a Particular Name
+
+BAPI_XBP_JOB_EXT_STEP_MODIFY Assign an External Program to a Particular Job Step
+
+BAPI_XBP_JOB_JOBLOG_READ Read Job Log for a Job
+
+BAPI_XBP_JOB_OPEN Create Job
+
+BAPI_XBP_JOB_SELECT Select Background Job According to Specific Criteria
+
+BAPI_XBP_JOB_SPOOLLIST_READ Read the Spool List of an ABAP Job Step
+
+BAPI_XBP_JOB_START_ASAP Start Job as Soon as Possible
+
+BAPI_XBP_JOB_START_IMMEDIATELY Start Job Immediately
+
+BAPI_XBP_JOB_STATUS_CHECK Reconcile Job Status According to DB With Actual Status
+
+BAPI_XBP_JOB_STATUS_GET Determine Status of a Job
+
+BAPI_XBP_VARIANT_INFO_GET Determine all Defined Variants of an ABAP Program
+
+BAPI_XBP_VERSIONS_GET_INT Each Interface Attaches Its Version to an Existing Table
+
+BAPI_XBP_VERSION_CHECK_INT The Version of the External Tool is Tested Against the 
+
+Supported Vers.
+
+SXMI Help fct for connecting ext. mgmt tools
+
+BAPI_XMI_CHECK_VERSION Check Whether a Particular Version of an Interface is 
+
+Supported
+
+BAPI_XMI_DESCRIBE_INTERFACE Query Long Name of an Interface
+
+BAPI_XMI_ENTER_LOGMSG Enter External Message in XMI Log
+
+BAPI_XMI_GET_VERSIONS Query Supported Versions of XMI Interfaces
+
+BAPI_XMI_LOGOFF Log Off an External Management Tool
+
+BAPI_XMI_LOGON Log onto an external management tool
+
+BAPI_XMI_MSG_FORMATS_UPLOAD Obsolete: … external message formats
+
+BAPI_XMI_SELECT_LOG Selection of Translated Entries in XMI Log
+
+BAPI_XMI_SET_AUDITLEVEL Set Audit Level of an XMI Session
+
+BAPI_XMI_UPLOAD_MSG_FORMATS Transfer of External Message Formats
+
+SZAK BAPIs for BOR object BUS4001 (AddrOrg)
+
+BAPI_ADDRESSORG_CHANGE BAPI to change organization addresses
+
+BAPI_ADDRESSORG_GETDETAIL BAPI to read organization addresses
+
+BAPI_ADDRESSORG_SAVEREPLICA BAPI for inbound distribution of organizational 
+
+addresses
+
+SZAL BAPIs for BOR object BUS4002 (AddrPers)
+
+BAPI_ADDRESSPERS_CHANGE BAPI to change person addresses
+
+BAPI_ADDRESSPERS_GETDETAIL BAPI to read person addresses
+
+BAPI_ADDRESSPERS_SAVEREPLICA BAPI for inbound distribution of private addresses
+
+SZAM BAPIs f. BOR obj. BUS4003 (AddrContPart)
+
+BAPI_ADDRCONTPART_SAVEREPLICA BAPI for inbound distribution of contact person 
+
+addresses
+
+BAPI_ADDRESSCONTPART_CHANGE BAPI to change contact person addresses
+
+BAPI_ADDRESSCONTPART_GETDETAIL BAPI to read contact person addresses
+
+TIQU Time quota
+
+BAPI_TIMEQUOTA_GETDETAILEDLIST BAPI: Determines Quota Data for a Personnel Number
+
+TSPA Division
+
+BAPI_DIVISION_EXIST Division: Existence Check
+
+BAPI_DIVISION_GET_DETAIL Division: Display Name
+
+TVTW Distribution channel
+
+BAPI_DISTRIBCHANNEL_EXIST Distribution Channel: Existence Check
+
+BAPI_DISTRIBCHANNEL_GET_DETAIL Distribution Channel: Display Name
+
+USR1 Business Object USR01DOHR
+
+BAPI_USR01DOHR_GETEMPLOYEE Determine employee from user name
+
+V02D Customer Master: Read/Block
+
+BAPI_CUSTOMER_CHANGEFROMDATA Customer: Change customer
+
+BAPI_CUSTOMER_CHANGEFROMDATA1 Check personal data of a customer
+
+BAPI_CUSTOMER_CREATEFROMDATA Customer: Create customer
+
+BAPI_CUSTOMER_CREATEFROMDATA1 BAPI Create customer for BO customer (KNA1) - with CAM 
+
+features
+
+BAPI_CUSTOMER_GETDETAIL Customer: Read customer
+
+BAPI_CUSTOMER_GETDETAIL1 BAPI Read customer to BO customer (KNA1) - with CAM 
+
+features
+
+BAPI_CUSTOMER_SEARCH Customer: Find customer number
+
+BAPI_CUSTOMER_SEARCH1 BAPI Search customer for BO customer (KNA1) - with CAM 
+
+features
+
+V02HBAPI SD Customer Hierarchy: BAPI Implementn
+
+BAPI_CUSTOMER_GET_CHILDREN BAPI Customer Hierarchy GetChildren() Implementation
+
+BAPI_CUSTOMER_GET_ROOT BAPI Customer Hiearchy getRoot() Implementation
+
+BAPI_CUSTOMER_GET_ROOT_LIST BAPI Customer Hierarchy getRootList() Implementation
+
+V10A
+
+BAPI_KTGRM_GETNAME
+
+V46W SD Functions: Incoming Orders WWW
+
+BAPI_CUSTOMER_CHANGEPASSWORD Change customer password
+
+BAPI_CUSTOMER_CHECKEXISTENCE Check valid customer number
+
+BAPI_CUSTOMER_CHECKPASSWORD Check customer password
+
+BAPI_CUSTOMER_CREATEPWREG Create entry for customer password
+
+BAPI_CUSTOMER_DELETEPWREG Delete entry for customer password
+
+BAPI_CUSTOMER_GETPWREG Read entry for customer password
+
+BAPI_CUSTOMER_INITPASSWORD Initialize customer password
+
+V50I Delivery BAPIs
+
+BAPI_IBDLV_CREATE_FROM_OBDLV BAPI Inbound Delivery from Outbound Delivery
+
+BAPI_INB_DELIVERY_CONFIRM_DEC BAPI for Inbound Delivery Confirmation from a 
+
+Decentralized System
+
+BAPI_INB_DELIVERY_SAVEREPLICA BAPI Function Module for Replication of Inbound 
+
+Deliveries
+
+BAPI_OUTB_DELIVERY_CONFIRM_DEC BAPI for Outbound Delivery Confirmation from a 
+
+Decentralized System
+
+BAPI_OUTB_DELIVERY_SAVEREPLICA BAPI Function Module for Replication of Outbound 
+
+Deliveries
+
+V81ABAPI SD Product Hierarchy: BAPI Impl.
+
+BAPI_MATERIAL_GET_PRODUCTHIER BAPI Material Get Product Hierarchy ()
+
+VBAK Business Object Sales Document
+
+BAPI_SALESDOCUMENT_CHANGE BAPI Change Sales Document
+
+BAPI_SALESDOCUMENT_COPY Copying a Sales Document in a Subsequent Document
+
+BAPI_SALESDOCU_CREATEFROMDATA1 Creating a Sales Document
+
+BAPI_SALESDOCU_CREATEWITHDIA Creating a Sales Document
+
+VBKA Business Object IFVBKA Abstract Method
+
+BAPI_SALESSUPDOCUMENT_ADD_ASGN Abstract BAPI Sales Support Document Add to Assigned
+
+BAPI_SALESSUPDOCUMENT_DELETE Abstract BAPI Sales Support Document Delete
+
+BAPI_SALESSUPDOCUMENT_GETLIST Abstract BAPI Sales Support Document Get List
+
+BAPI_SALESSUPDOCUMENT_REM_ASGN Abstract BAPI Sales Support Document Remove from 
+
+Assigned
+
+BAPI_SALESSUPDOCUMENT_REPCH Abstract BAPI Sales Support Document Replicate Changed 
+
+Objects
+
+BAPI_SALESSUPDOCUMENT_REPLIC Abstract BAPI Sales Support Document Replicate Objects 
+
+on Demand
+
+BAPI_SALESSUPDOCUMENT_SAVE Abstract BAPI Sales Support Document Save from Memory
+
+BAPI_SALESSUPDOCUMENT_SETACT Abstract BAPI Sales Support Document - Set simulated to 
+
+active
+
+VBRK Methods for Object Type VBRK
+
+BAPI_BILLINGDOC_CANCEL Cancel Customer Individual Billing Document
+
+BAPI_BILLINGDOC_CANCEL1 Cancel Customer Individual Billing Document
+
+BAPI_BILLINGDOC_CONFIRM Customer Individual Billing Document : Confirm Billing 
+
+Document
+
+BAPI_BILLINGDOC_CREATE Custimer Individual Billing Document : Create Billing 
+
+Document
+
+BAPI_BILLINGDOC_CREATEFROMDATA Create Customer Individual Billing Doc. Using Ext. 
+
+Doc. from RH
+
+BAPI_BILLINGDOC_CREATEMULTIPLE Create Individual Customer Billing Document
+
+BAPI_BILLINGDOC_DISPLAY Customer Individual Billing Document : Display Billing 
+
+Document
+
+BAPI_BILLINGDOC_EDIT Customer Individual Billing Document : Change Billing Doc. 
+
+(with dialogue)
+
+BAPI_BILLINGDOC_EXISTENCECHECK Individual Customer Billing Document : Existence 
+
+Check
+
+BAPI_BILLINGDOC_GETDETAIL Detailed Information on a Billing Document
+
+BAPI_BILLINGDOC_GETLIST Detailed Information on a Billing Document
+
+BAPI_BILLINGDOC_GET_FIELD_INFO Determine Field Information for a Billing Document
+
+BAPI_BILLINGDOC_IS_CANCELLED Individual Customer Billing Document: Is Billing 
+
+Document Canceled?
+
+BAPI_BILLINGDOC_SIMULATE Simulate Customer Individual Billing Document using 
+
+External Document
+
+VBWB BAPIs for Batch
+
+BAPI_BATCH_CHANGE Change Batch
+
+BAPI_BATCH_CREATE Create Batch
+
+BAPI_BATCH_DELETE Set Deletion Indicator for Batch
+
+BAPI_BATCH_GET_DETAIL Batch Detailed Information
+
+BAPI_BATCH_GET_LEVEL Determine Batch Level
+
+BAPI_BATCH_REPLICATE Distribute Batch
+
+BAPI_BATCH_RESTRICT Change Batch Status to ‘Restricted’
+
+BAPI_BATCH_SAVE_REPLICA Replicate Batch
+
+BAPI_BATCH_UNDELETE Cancel Deletion Indicator for Batch
+
+BAPI_BATCH_UNRESTRICT Change Batch Status to ‘Unrestricted’
+
+VBWU BAPIs Batch-Specific Unit of Measure
+
+BAPI_BMUOM_REPLICATE Distribute Batch-Specific Material Units of Measure
+
+BAPI_BMUOM_SAVEREPLICAMULTIPLE Replicate Batch-Specific Material Quantity Units
+
+VCCW Credit card processing Internet WWW
+
+BAPI_CREDITCARD_AUTHORIZATION Credit Card Authorization
+
+BAPI_CREDITCARD_CHECK Credit card check
+
+BAPI_CREDITCARD_CHECKNUMBER Credit card check, type and number
+
+VVTR Express Delivery Company Interface
+
+BAPI_CAR_PRVD_LABEL_DATA Interface Methods: Get Data Fields from Express Delivery 
+
+Company
+
+BAPI_CAR_PRVD_META Interface Methods: Get Meta-Data from Express Delivery Company
+
+BAPI_CAR_PRVD_NUMBER_RANGE Make Tracking Number Range Available
+
+BAPI_CAR_PRVD_PRDCD Make Express Delivery Company’s Product Codes Available
+
+BAPI_CAR_PRVD_ROUTING Make Express Delivery Company’s Routing Info Available
+
+BAPI_CAR_PRVD_SRVC_CD Make Express Delivery Company’s Service Codes Available
+
+BAPI_CAR_PRVD_TRACK_STATUS Make Tracking Status Available by Using an Object
+
+BAPI_CAR_PRVD_TRKS Make Express Delivery Company’s Tracking Status Available
+
+BAPI_CAR_PRVD_URL Make Express Delivery Company’s URLs Available
+
+BAPI_PRVD_CARRIER_LIST List of All Available Express Delivery Companies
+
+W61V ATP information in the internet
+
+BAPI_MATERIAL_AVAILABILITY ATP information
+
+WBW5 BAPIs for Revaluation at Retail
+
+BAPI_SVCHANGE_CHANGE_STATUS Enter Count Quantity and Change Item Status from A to B 
+
+or C
+
+BAPI_SVCHANGE_GET_ITEMS Read Retail Revaluation Document for Store, Key Date, Item 
+
+Status
+
+WPLG Space management: Read and write
+
+BAPI_SITELAYMOD_CHANGE Layout Module: Update Material Data
+
+BAPI_SITELAYMOD_GETITEMS Layout Module: Read Material Data
+
+BAPI_SITELAYMOD_GETITEMS2 Layout Module: Read Material Data
+
+WRPL_BAPI Replenishment BAPIs
+
+BAPI_RTMAT_RPL_SAVEREPLICAMULT Create and Change Replenishment Master Data
+
+WSOS Modules for the structured material
+
+BAPI_MATERIAL_GETCOMPONENTS Break down structured materials
+
+WWG4 Distribution of Material Groups
+
+BAPI_MATL_GROUP_SAVEREPLICA Distribution of material groups
