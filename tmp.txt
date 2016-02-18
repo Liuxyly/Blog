@@ -4,7 +4,6 @@ http://www.tuicool.com/kans/1486699827
 http://scn.sap.com/docs/DOC-56411
 http://www.cnblogs.com/hanmos/p/3425511.html
 http://www.hanainchina.net/
-http://scn.sap.com/community/chinese/hana/blog/2013/10/05/%E7%BF%BB%E8%AF%91-30%E5%A4%A9%E5%85%8D%E8%B4%B9%E8%AF%95%E7%94%A8%E5%BC%80%E5%8F%91%E8%80%85%E7%89%88%E6%9C%ACsap-hana
 http://www.itpub.net/thread-1785293-1-1.html
 http://blog.chinaunix.net/uid-23089249-id-2855999.html
 http://x-slam.com/da_jian_eclipse_qemu_gdb_diao_shi_linux_kernel_huan_jing
@@ -38,8 +37,8 @@ http://www.linuxstory.org/dnf-commands-for-fedora-rpm-package-management/
 http://www.itechzero.com/google-mirror-sites-collect.html
 https://github.com/olifante/Arch-etc
 https://bbs.archlinux.org/viewtopic.php?id=185970
-http://blog.csdn.net/huojianying123456/article/details/47012173
-https://support.office.com/zh-cn/article/%E5%9C%A8-Word-%E4%B8%AD%E5%88%9B%E5%BB%BA%E6%B8%85%E5%8D%95-dd04fa4f-2ca7-4543-8818-c469eca9f45c?omkt=zh-CN&ui=zh-CN&rs=zh-CN&ad=CN
+http://blog.csdn.net/huojianying123456
+https://support.office.com/zh-cn
 http://www.saponlinetutorials.com/sap-fico-module-training-tutorials-sap-fi-materials/
 http://itlab.idcquan.com/linux/administer/951216.html
 
@@ -51,7 +50,6 @@ http://ceeji.net/blog/mod-in-real/
 http://ra.gg/!bvvAw
 《学园NTR》
 http://www.lv1.in/lib/readl.php?tid=1347378083&uid=313&reply=12
-http://tieba.baidu.com/p/2543042355?see_lz=1&pn=2
 
 如何用 Swift 语言构建一个自定控件
 http://www.cocoachina.com/swift/20140902/9505.html
