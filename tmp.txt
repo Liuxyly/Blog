@@ -52,13 +52,24 @@ http://ra.gg/!bvvAw
 《学园NTR》
 http://www.lv1.in/lib/readl.php?tid=1347378083&uid=313&reply=12
 http://tieba.baidu.com/p/2543042355?see_lz=1&pn=2
+
+如何用 Swift 语言构建一个自定控件
 http://www.cocoachina.com/swift/20140902/9505.html
 
-
+任意精度运算的使用原因及方法 
 http://blog.sciencenet.cn/blog-548663-742642.html
 
 http://www.nipic.com/show/2/61/8370281k761851a8.html
+
+Python 中使用 C 代码：以 Numpy 为例
 https://segmentfault.com/a/1190000000479951
+
+运行基于Web的notebook
 http://www.ituring.com.cn/article/40676
+
+ATLAS + NumPy + SciPy + Theano 的python科学计算环境搭建
+http://blog.sina.com.cn/s/blog_6cb8e53d0101keak.html
 http://www.tuicool.com/articles/Ub6vqiQ
+
+sourceforge镜像站
 http://www.mirrorservice.org/sites/download.sourceforge.net/pub/sourceforge/m/ma/math-atlas/Stable/3.10.1/
