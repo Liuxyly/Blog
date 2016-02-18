@@ -67,6 +67,7 @@ http://www.ituring.com.cn/article/40676
 
 ATLAS + NumPy + SciPy + Theano 的python科学计算环境搭建
 http://blog.sina.com.cn/s/blog_6cb8e53d0101keak.html
+http://blog.csdn.net/u013000139/article/details/45851093
 http://www.tuicool.com/articles/Ub6vqiQ
 
 sourceforge镜像站
