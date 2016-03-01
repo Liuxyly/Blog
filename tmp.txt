@@ -79,3 +79,5 @@ http://www.cnblogs.com/haore147/p/3618930.html
 markdown
 http://wowubuntu.com/markdown/#list
 http://sspai.com/25137
+
+http://lxr.sourceforge.net/en/Tips/tipcentos.php
