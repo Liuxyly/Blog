@@ -84,3 +84,5 @@ http://lxr.sourceforge.net/en/Tips/tipcentos.php
 
 使用 vim + ctags + cscope + taglist 阅读源码 
 http://my.oschina.net/u/554995/blog/59927
+http://www.linuxdiyf.com/linux/16621.html
+http://www.linuxdiyf.com/linux/3060.html
