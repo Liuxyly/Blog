@@ -81,3 +81,6 @@ http://wowubuntu.com/markdown/#list
 http://sspai.com/25137
 
 http://lxr.sourceforge.net/en/Tips/tipcentos.php
+
+使用 vim + ctags + cscope + taglist 阅读源码 
+http://my.oschina.net/u/554995/blog/59927
