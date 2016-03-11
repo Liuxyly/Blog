@@ -89,5 +89,3 @@ http://www.linuxdiyf.com/linux/3060.html
 
 实战 SSH 端口转发
 http://www.ibm.com/developerworks/cn/linux/l-cn-sshforward/
-
-https://noahchou.wordpress.com/sap-mm%E6%A8%A1%E7%B5%84%E8%A8%AD%E5%AE%9A%E6%89%8B%E5%86%8A/
