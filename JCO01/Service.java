@@ -17,7 +17,7 @@ public class Service extends Server {
 		super.setProperty("unicode", "1");
 	    
 		if (client == null) {
-			client = JCO.createClient("800", "DL_YULIU", "Pi3.1415926", "JA", "10.254.161.194", "00");
+			client = JCO.createClient("800", "DL_YULIU", "xxxxxx", "JA", "xxxxxx", "00");
 			client.connect();
 		}
 	}
