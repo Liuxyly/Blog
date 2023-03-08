@@ -7,7 +7,7 @@ import com.sap.mw.jco.JCO.Repository;
 public class JCoClient {
 
 	public static void main(String [] arg){
-		Client client = JCO.createClient("800", "DL_YULIU", "Pi3.1415926", "JA", "10.254.161.194", "00");
+		Client client = JCO.createClient("800", "DL_YULIU", "XXXXXXXX", "JA", "xxxxxxxx", "00");
 		client.connect();
 		Repository rep = new JCO.Repository("", client);
 		
